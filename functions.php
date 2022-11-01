@@ -12,6 +12,7 @@ if ( ! defined( '_S_VERSION' ) ) {
 	define( '_S_VERSION', '1.0.0' );
 }
 
+
 /**
  * Sets up theme defaults and registers support for various WordPress features.
  *
@@ -140,7 +141,12 @@ add_action( 'widgets_init', 'merchandise_theme_widgets_init' );
 function merchandise_theme_scripts() {
 	wp_enqueue_style( 'merchandise-theme-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'merchandise-theme-style', 'rtl', 'replace' );
-
+// Enqueue Swiper on the Homepage
+if ( is_front_page() ) {
+	wp_enqueue_style( 'swiper-styles', get_template_directory_uri() .'/css/swiper-bundle.css', array(), '7.4.1' );
+	wp_enqueue_script( 'swiper-scripts', get_template_directory_uri() .'/js/swiper-bundle.min.js', array(), '7.4.1', true );
+	wp_enqueue_script( 'swiper-settings', get_template_directory_uri() .'/js/swiper-settings.js', array( 'swiper-scripts' ), _S_VERSION, true );
+}
 	wp_enqueue_script( 'merchandise-theme-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
