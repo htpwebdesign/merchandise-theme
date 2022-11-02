@@ -200,11 +200,12 @@ function my_login_logo() { ?>
             background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/images/picture1.png);
 		
 			
-		height:65px;
+		height:320px;
 		width:320px;
-		background-size: 320px 65px;
+		background-size: 320px 320px;
 		background-repeat: no-repeat;
-		    
+		border-radius: 23px;
+		border-color: #dcdcde;    
 
 
         }

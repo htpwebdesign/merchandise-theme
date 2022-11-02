@@ -1,9 +1,14 @@
 .login form{
-    background-color: aliceblue;
+    background-color: #e2e4ef;
     padding-top: 48px;
-			border-color: black; 
+			border-color: #4ab3ff; 
         	padding-bottom: 23px;
 			border-radius: 23px;
 			border-width: 12px;
 			border-style: double;
+}
+
+body.login {
+background: #979fa6;
+
 }
