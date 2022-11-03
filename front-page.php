@@ -124,8 +124,11 @@ get_header();
 					$link_target = $link['target'] ? $link['target'] : '_self';
 				?>
 				<a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
+				
 		
 		<?php endif; 
+
+echo do_shortcode('[products limit="5" columns="4" orderby="popularity" class="quick-sale" on_sale="true" ]'); 
 
 				if ( get_field( 'accessories_cta' ) ) {
 					$image = get_field('accessories_cta');
