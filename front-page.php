@@ -16,25 +16,22 @@ get_header();
 ?>
 
 	<main id="primary" class="site-main">
-
+	<section class ="mens-womens-img">
 		<?php
 		while ( have_posts() ) :
 			the_post();
 
 			get_template_part( 'template-parts/content', 'page' );
-
+			
 			if ( function_exists( 'get_field' ) ) {
 				if ( get_field( 'home_message' ) ) {
 					$image = get_field('home_message');
 					$size = 'full'; // (thumbnail, medium, large, full or custom size)
 					if( $image ) {
 						echo wp_get_attachment_image( $image, $size );
-
 					}
-					
 				}
 
-				
 				$link = get_field('mens');
 					if( $link ): 
     					$link_url = $link['url'];
@@ -43,19 +40,21 @@ get_header();
     				?>
     				<a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
 			
-			<?php endif; 
+				<?php endif; 
 
 				$link = get_field('womens');
 					if( $link ): 
-					$link_url = $link['url'];
-					$link_title = $link['title'];
-					$link_target = $link['target'] ? $link['target'] : '_self';
-				?>
-				<a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
+						$link_url = $link['url'];
+						$link_title = $link['title'];
+						$link_target = $link['target'] ? $link['target'] : '_self';
+					?>
+					<a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
 
-			<?php endif; 
-
-
+				<?php endif; 
+?>
+</section>
+<section class = "new-releases-img">
+<?php
 
 					if ( get_field( 'new-releases-cta' ) ) {
 						$image = get_field('new-releases-cta');
@@ -76,6 +75,12 @@ get_header();
     				<a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
 			
 			<?php endif; 
+
+
+?>
+</section>
+<section class = "tesitmonial-slider">
+<?php
 
 
 			$args = array(
@@ -102,7 +107,11 @@ get_header();
 				<div class="swiper-button-next"></div>
 
 			</div>
-			<?php
+
+
+</section>
+<section class = "on-sale-img">
+<?php
 
 				wp_reset_postdata();
 						endif;
@@ -127,9 +136,17 @@ get_header();
 				
 		
 		<?php endif; 
+?>
+</section>
+<section class = "on-sale-products-preview">
 
-echo do_shortcode('[products limit="5" columns="4" orderby="popularity" class="quick-sale" on_sale="true" ]'); 
+		<?php
+			echo do_shortcode('[products limit="5" columns="4" orderby="popularity" class="quick-sale" on_sale="true" ]'); 
+		?>
 
+</section>
+<section class = "accessories-img">
+<?php
 				if ( get_field( 'accessories_cta' ) ) {
 					$image = get_field('accessories_cta');
 					$size = 'full'; // (thumbnail, medium, large, full or custom size)
@@ -148,6 +165,11 @@ echo do_shortcode('[products limit="5" columns="4" orderby="popularity" class="q
 			<a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
 	
 		<?php endif; 
+?>
+</section>
+<section class = "make-an-account-img">
+
+<?php
 
 			if ( get_field( 'make_an_account_cta' ) ) {
 				$image = get_field('make_an_account_cta');
@@ -167,6 +189,11 @@ echo do_shortcode('[products limit="5" columns="4" orderby="popularity" class="q
 			<a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
 
 		<?php endif; 
+
+	?>	
+</section>
+
+<?php
 
 
 
