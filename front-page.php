@@ -33,7 +33,7 @@ get_header();
 				}
 ?>
 
-	<section class = "cta-buttons">
+	<div class = "cta-buttons">
 
 <?php
 				$link = get_field('mens');
@@ -46,11 +46,6 @@ get_header();
 			
 				<?php endif; 
 
-
-?>
-
-<?php
-
 				$link = get_field('womens');
 					if( $link ): 
 						$link_url = $link['url'];
@@ -61,6 +56,7 @@ get_header();
 
 				<?php endif; 
 ?>
+</div>
 </section>
 <section class = "new-releases-img">
 <?php
@@ -75,6 +71,11 @@ get_header();
 						
 					}
 
+?>
+<div class = "cta-buttons"> 
+
+<?php
+
 					$link = get_field('new_releases_button');
 					if( $link ): 
     					$link_url = $link['url'];
@@ -87,6 +88,7 @@ get_header();
 
 
 ?>
+</div>
 </section>
 <section class = "tesitmonial-slider">
 <?php
@@ -134,7 +136,12 @@ get_header();
 					}
 	
 				}
-					
+
+				?>
+				<div class = "cta-buttons"> 
+				
+				<?php
+
 				$link = get_field('on_sale_button');
 				if( $link ): 
 					$link_url = $link['url'];
@@ -146,6 +153,7 @@ get_header();
 		
 		<?php endif; 
 ?>
+</div>
 </section>
 <section class = "on-sale-products-preview">
 
@@ -165,6 +173,11 @@ get_header();
 				}
 			}
 
+			?>
+<div class = "cta-buttons"> 
+
+<?php
+
 			$link = get_field('accessories_button');
 			if( $link ): 
 				$link_url = $link['url'];
@@ -175,6 +188,7 @@ get_header();
 	
 		<?php endif; 
 ?>
+</div>
 </section>
 <section class = "make-an-account-img">
 
@@ -189,6 +203,11 @@ get_header();
 			}
 		}
 
+		?>
+<div class = "cta-buttons"> 
+
+<?php
+
 			$link = get_field('account_creation_button');
 			if( $link ): 
 				$link_url = $link['url'];
@@ -200,6 +219,7 @@ get_header();
 		<?php endif; 
 
 	?>	
+	</div>
 </section>
 
 <?php

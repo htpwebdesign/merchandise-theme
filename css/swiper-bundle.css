@@ -279,7 +279,8 @@
 .swiper-pagination-custom,
 .swiper-horizontal > .swiper-pagination-bullets,
 .swiper-pagination-bullets.swiper-pagination-horizontal {
-  bottom: 10px;
+  position: relative;
+  bottom: -5px;
   left: 0;
   width: 100%;
 }
