@@ -31,20 +31,19 @@
 			the_custom_logo();
 			if ( is_front_page() && is_home() ) :
 				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( './images/logo.png' ); ?></a></h1>
 				<?php
 			else :
 				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( './images/logo.png' ); ?></a></p>
 				<?php
 			endif;
-			$merchandise_theme_description = get_bloginfo( 'description', 'display' );
-			if ( $merchandise_theme_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $merchandise_theme_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
-			<?php endif; ?>
+			// $merchandise_theme_description = get_bloginfo( 'description', 'display' );
+			// if ( $merchandise_theme_description || is_customize_preview() ) :
+			// 	/*?>
+				<!-- <p class="site-description"><?php echo $merchandise_theme_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p> -->
+		
 		</div><!-- .site-branding -->
-
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'merchandise-theme' ); ?></button>
 			<?php
@@ -56,4 +55,5 @@
 			);
 			?>
 		</nav><!-- #site-navigation -->
+
 	</header><!-- #masthead -->

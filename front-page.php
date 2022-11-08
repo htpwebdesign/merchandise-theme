@@ -21,7 +21,7 @@ get_header();
 		while ( have_posts() ) :
 			the_post();
 
-			get_template_part( 'template-parts/content', 'page' );
+			// get_template_part( 'template-parts/content', 'page' );
 			
 			if ( function_exists( 'get_field' ) ) {
 				if ( get_field( 'home_message' ) ) {
@@ -31,7 +31,11 @@ get_header();
 						echo wp_get_attachment_image( $image, $size );
 					}
 				}
+?>
 
+	<section class = "cta-buttons">
+
+<?php
 				$link = get_field('mens');
 					if( $link ): 
     					$link_url = $link['url'];
@@ -41,6 +45,11 @@ get_header();
     				<a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
 			
 				<?php endif; 
+
+
+?>
+
+<?php
 
 				$link = get_field('womens');
 					if( $link ): 
