@@ -26,6 +26,7 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'merchandise-theme' ); ?></a>
 
 	<header id="masthead" class="site-header">
+	  <div class = "yvr-header">
 		<div class="site-branding">
 			<?php
 			the_custom_logo();
@@ -55,5 +56,5 @@
 			);
 			?>
 		</nav><!-- #site-navigation -->
-
+		</div>
 	</header><!-- #masthead -->
