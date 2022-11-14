@@ -73,7 +73,7 @@
 
 	background-color: white;
 	padding: 2rem;
-
+	z-index: 100;
 }
 
 #primary-menu a{
@@ -89,6 +89,12 @@
 .yvr-header{
 
 	display: flex;
+
+}
+
+.header-menu{
+
+	text-align: center;
 
 }
 

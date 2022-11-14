@@ -45,6 +45,7 @@
 				<!-- <p class="site-description"><?php echo $merchandise_theme_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p> -->
 		
 		</div><!-- .site-branding -->
+		<div class = "header-menu">
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'merchandise-theme' ); ?></button>
 			<?php
@@ -54,7 +55,10 @@
 					'menu_id'        => 'primary-menu',
 				)
 			);
+
 			?>
+	
 		</nav><!-- #site-navigation -->
+		</div>
 		</div>
 	</header><!-- #masthead -->
