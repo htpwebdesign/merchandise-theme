@@ -32,6 +32,7 @@ get_header();
 					}
 				}
 ?>
+<div class = "mens-womens-intro">
 
 				<h1 class = "yvr-wear">YVR Wear</h1>
 
@@ -58,6 +59,7 @@ get_header();
 
 				<?php endif; 
 ?>
+</div>
 </div>
 </section>
 <section class = "new-releases-img">
