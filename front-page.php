@@ -33,6 +33,8 @@ get_header();
 				}
 ?>
 
+				<h1 class = "yvr-wear">YVR Wear</h1>
+
 	<div class = "cta-buttons">
 
 <?php
@@ -42,7 +44,7 @@ get_header();
     					$link_title = $link['title'];
     					$link_target = $link['target'] ? $link['target'] : '_self';
     				?>
-    				<a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
+    				<a class="mens-button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
 			
 				<?php endif; 
 
@@ -52,7 +54,7 @@ get_header();
 						$link_title = $link['title'];
 						$link_target = $link['target'] ? $link['target'] : '_self';
 					?>
-					<a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
+					<a class="womens-button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
 
 				<?php endif; 
 ?>
