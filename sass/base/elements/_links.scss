@@ -1,5 +1,11 @@
+
+
 a {
-	color: $color__link;
+	font-family: 'Heebo', sans-serif;
+	text-decoration: none;
+	color: rgb(00, 23, 93);
+	text-transform: uppercase;
+	font-weight: 300;
 
 	&:visited {
 		color: $color__link-visited;

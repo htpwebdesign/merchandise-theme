@@ -127,3 +127,60 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 	font-weight: 500;
 
 }
+
+.new-releases-products-preview .onsale {
+
+	display: none;
+
+}
+
+ul.products.columns-4 li.product img{
+
+	width: 150px;
+	height: auto;
+
+
+}
+
+ul.products.columns-4 li.product h2{
+
+	font-size: 1rem;
+	inline-size: 150px;
+	overflow-wrap: break-word;
+	font-family: 'Heebo', sans-serif;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: rgb(00, 23, 93)
+
+
+}
+
+.new-releases-preview-text{
+
+	display: flex;
+
+
+}
+
+.new-releases-preview-text p{
+
+	float: right;
+
+}
+
+.product{
+
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	margin-right: 0.5rem;
+
+}
+
+.new-releases-products{
+
+	display: grid;
+	grid-template-columns: 800px 800px 800px 800px;
+
+}
+

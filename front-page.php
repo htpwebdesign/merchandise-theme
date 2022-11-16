@@ -64,6 +64,20 @@ get_header();
 ?>
 </div>
 </div>
+<section class = "new-releases-products-preview">
+		
+<div class = "new-releases-preview-text">
+		<h1>New Releases</h1>
+		<p><a href="/">View All</a></p>
+		</div>
+
+		<div class = "new-releases-products">
+		<?php
+			echo do_shortcode('[products limit="5" category = "new-releases" columns="4"]'); 
+		?>
+</div>
+</section>
+
 </section>
 <section class = "new-releases-img">
 <?php
