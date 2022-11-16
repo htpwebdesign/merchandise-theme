@@ -35,14 +35,6 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 
 }
 
-.site-main{
-
-	padding-left: 2rem;
-	padding-right: 2rem;
-
-
-}
-
 .onsale{
 
 
@@ -52,8 +44,12 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 
 .mens-womens-intro{
 
-	position: relative;
-	top: -30rem;
+	// position: relative;
+	// top: -30rem;
+
+	position: absolute;
+	top: 0;
+	// widows: 100%;
 
 }
 
@@ -80,6 +76,13 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 .sticky {
 	display: block;
 }
+
+// .site-main{
+
+// 	background-color:  rgb(0, 23, 93);;
+
+// }
+
 
 .post,
 .page {
@@ -114,10 +117,13 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 
 .yvr-wear{
 
-	position: relative;
-	top: -35rem;
-	color: white;
+	// position: relative;
+	// top: -35rem;
+	color: White;
 	padding-left: 7rem;
+	padding-top: 8rem;
 	font-size: 7rem;
+	font-family: 'Heebo', sans-serif;
+	font-weight: 500;
 
 }

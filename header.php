@@ -61,4 +61,5 @@
 		</nav><!-- #site-navigation -->
 		</div>
 		</div>
+		<!-- <div class = "sub-header"><h3>Want to Sign Up? Make an Account here.</h3></div> -->
 	</header><!-- #masthead -->

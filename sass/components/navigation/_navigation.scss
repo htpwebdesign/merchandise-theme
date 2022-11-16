@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600&display=swap');
+
 .main-navigation {
 	display: block;
 	width: 100%;
@@ -72,21 +74,46 @@
 .site-header{
 
 	background-color: white;
-	padding: 2rem;
+	padding: 2rem 2rem 0rem 2rem;
 	z-index: 100;
 }
 
 .site-branding{
 
-	padding-right: 5rem;
+	padding-right: 2rem;
 
 }
 
+#primary-menu{
+
+	padding-top: 0.8rem;
+
+}
+
+.sub-header{
+
+	background-color: rgb(00, 23, 93);
+	width: 100%;
+	height: auto;
+	margin: 0;
+
+}
+
+.sub-header h3{
+
+	color: white;
+	text-align: center;
+	font-family: 'Heebo', sans-serif;
+	font-weight: 500;
+	padding: 2rem;
+
+}
 #primary-menu a{
 
-	color: rgb(11, 11, 44);
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	font-weight: 600;
+	color: rgb(00, 23, 93);
+	font-family: 'Heebo', sans-serif;
+	text-transform: uppercase;
+	font-weight: 300;
 	font-size: 1.5rem;
 	padding-right: 1rem;
 

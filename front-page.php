@@ -17,6 +17,7 @@ get_header();
 
 	<main id="primary" class="site-main">
 	<section class ="mens-womens-img">
+		<div class = "mask">
 		<?php
 		while ( have_posts() ) :
 			the_post();
@@ -32,6 +33,8 @@ get_header();
 					}
 				}
 ?>
+
+</div>
 <div class = "mens-womens-intro">
 
 				<h1 class = "yvr-wear">YVR Wear</h1>
