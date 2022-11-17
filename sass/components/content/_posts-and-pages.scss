@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5 p a ul li{
 
 .tesitmonial-slider{
 
-	padding: 2rem 0.5rem 2rem 0.5rem;
+	padding: 3rem 0.5rem 3rem 0.5rem;
 
 }
 
@@ -68,34 +68,65 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 
 .new-releases-products-preview{
 
-	padding-top: 8.3rem;
-	padding-bottom: 8.3rem;
+	padding-top: 8.25rem;
+	padding-bottom: 8.25rem;
 
 }
 
-.new-releases-hdr{
+
+
+@mixin CtaHeadingStyling {
 
 	font-size: 7rem;
 	color: white;
-	position: absolute;
-	top: 100rem;
-left: 23rem;
 	font-family: "Heebo", sans-serif;
 	font-weight: 600;
 	text-transform: uppercase;
 
 }
 
+.new-releases-hdr{
+
+	@include CtaHeadingStyling();
+
+
+	position: absolute;
+	top: 105rem;
+	left: 23rem;
+
+}
+
+.on-sale-hdr{
+
+	@include CtaHeadingStyling();
+	position: absolute;
+	top: 173rem;
+	left: 33rem;
+	text-align: center;
+	// justify-content: center;
+
+}
+
+.accessories-hdr{
+
+	@include CtaHeadingStyling();
+	position: absolute;
+	top: 255rem;
+	left: 25rem;
+	text-align: center;
+	// justify-content: center;
+
+}
+
 
 .wp-block-quote{
 
-	font-size: 0.75rem;
+	font-size: 1.5rem;
 	padding-right: 2rem;
 	padding-left: 2rem;
 	text-align: center;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	color: rgb(177, 219, 240);
-	
+	font-family: 'Heebo', sans-serif;
+	color: rgb(00, 23, 93);
 }
 
 .new-releases-preview-text h1{
@@ -184,21 +215,61 @@ left: 23rem;
 
 }
 
-.mens-womens-img {
+.mask {
 
 
 background-color: black;
-
+height: 618px;
 
 }
 
-.mask{
+.mask img{
 
 	
-opacity: 0.8;
+	opacity: 0.6;
 
 
 }
+
+.new-releases-mask{
+
+	background-color: black;
+	height: 763px;
+
+}
+
+.new-releases-mask img{
+
+	opacity: 0.6;
+
+}
+
+.on-sale-mask{
+
+	background-color: black;
+	height: 761px;
+
+}
+
+.on-sale-mask img{
+
+	opacity: 0.6;
+
+}
+
+.accessories-mask{
+
+	background-color: black;
+	height: 753px;
+
+}
+
+.accessories-mask img{
+
+	opacity: 0.6;
+
+}
+
 
 .new-releases-products-preview .onsale {
 

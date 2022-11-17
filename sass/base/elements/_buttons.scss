@@ -49,9 +49,28 @@ input[type="submit"] {
 
 }
 
+.home-page-button{
+
+	@include CtaButtonStyling();
+
+	padding: 1rem 2rem;
+		
+}
+
+.accessories-button{
+
+	@include CtaButtonStyling();
+
+	padding: 1rem 2rem;
+		
+}
+
 .other-cta-buttons{
 
 	padding: 0.75rem 2.75rem;
+	text-align: center;
+	position: relative;
+	top: -20rem;
 
 
 }
@@ -106,3 +125,10 @@ input[type="submit"] {
 
 }
 
+.on-sale-button{
+
+	@include CtaButtonStyling();
+	padding: 1rem 2rem;
+
+	
+}

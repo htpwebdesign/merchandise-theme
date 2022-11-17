@@ -187,6 +187,21 @@
   --swiper-navigation-color: var(--swiper-theme-color);
   */
 }
+
+.swiper-button-prev{
+
+  color: rgb(00, 23, 93);
+  padding-left: 8rem;
+
+}
+
+.swiper-button-next{
+
+  color: rgb(00, 23, 93);
+  padding-right: 6rem;
+
+}
+
 .swiper-button-prev,
 .swiper-button-next {
   position: absolute;
@@ -199,7 +214,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--swiper-navigation-color, var(--swiper-theme-color));
+  color: rgb(00, 23, 93);
 }
 .swiper-button-prev.swiper-button-disabled,
 .swiper-button-next.swiper-button-disabled {
@@ -646,3 +661,4 @@ button.swiper-pagination-bullet {
           backface-visibility: hidden;
   overflow: hidden;
 }
+

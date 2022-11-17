@@ -82,8 +82,7 @@ get_header();
 </section>
 <section class = "new-releases-img">
 	
-	<h1 class = "new-releases-hdr">New Releases.</h1>
-
+		<div class = "new-releases-mask">
 <?php
 
 					if ( get_field( 'new-releases-cta' ) ) {
@@ -97,7 +96,13 @@ get_header();
 					}
 
 ?>
-<div class = "other-cta-buttons"> 
+		</div>
+
+	<div class = "new-releases-intro">
+
+		<h1 class = "new-releases-hdr">New Releases.</h1>
+
+			<div class = "other-cta-buttons"> 
 
 <?php
 
@@ -107,12 +112,13 @@ get_header();
     					$link_title = $link['title'];
     					$link_target = $link['target'] ? $link['target'] : '_self';
     				?>
-    				<a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
+    				<a class="home-page-button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
 			
 			<?php endif; 
 
 
 ?>
+</div>
 </div>
 </section>
 <section class = "tesitmonial-slider">
@@ -147,6 +153,9 @@ get_header();
 
 </section>
 <section class = "on-sale-img">
+
+	<div class = "on-sale-mask">
+
 <?php
 
 				wp_reset_postdata();
@@ -163,7 +172,15 @@ get_header();
 				}
 
 				?>
-				<div class = "cta-buttons"> 
+	</div>
+
+
+	<div class = "new-releases-intro">
+
+		<h1 class = "on-sale-hdr">On Sale.</h1>
+
+
+				<div class = "other-cta-buttons"> 
 				
 				<?php
 
@@ -173,7 +190,7 @@ get_header();
 					$link_title = $link['title'];
 					$link_target = $link['target'] ? $link['target'] : '_self';
 				?>
-				<a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
+				<a class="on-sale-button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
 				
 		
 		<?php endif; 
@@ -192,6 +209,7 @@ get_header();
 
 </section>
 <section class = "accessories-img">
+	<div class = "accessories-mask">
 <?php
 				if ( get_field( 'accessories_cta' ) ) {
 					$image = get_field('accessories_cta');
@@ -203,7 +221,12 @@ get_header();
 			}
 
 			?>
-<div class = "cta-buttons"> 
+	</div>
+
+
+	<div class = "new-releases-intro">
+	<h1 class = "accessories-hdr">Accessories.</h1>
+<div class = "other-cta-buttons"> 
 
 <?php
 
@@ -213,10 +236,11 @@ get_header();
 				$link_title = $link['title'];
 				$link_target = $link['target'] ? $link['target'] : '_self';
 			?>
-			<a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
+			<a class="accessories-button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
 	
 		<?php endif; 
 ?>
+</div>
 </div>
 </section>
 <section class = "make-an-account-img">
@@ -233,7 +257,10 @@ get_header();
 		}
 
 		?>
-<div class = "cta-buttons"> 
+
+<div class = "new-releases-intro">
+	<h1 class = "on-sale">Accessories</h1>
+		<div class = "cta-buttons"> 
 
 <?php
 
@@ -247,7 +274,8 @@ get_header();
 
 		<?php endif; 
 
-	?>	
+	?>
+		</div>	
 	</div>
 </section>
 
