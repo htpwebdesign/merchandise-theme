@@ -43,8 +43,10 @@ acronym {
 
 mark,
 ins {
-	background: $color__background-ins;
+
 	text-decoration: none;
+	font-weight: 800;
+	font-size: 1rem;
 }
 
 big {

@@ -18,6 +18,7 @@ get_header();
 	<main id="primary" class="site-main">
 	<section class ="mens-womens-img">
 		<div class = "mask">
+
 		<?php
 		while ( have_posts() ) :
 			the_post();
@@ -33,11 +34,11 @@ get_header();
 					}
 				}
 ?>
-
 </div>
+			</section>
 <div class = "mens-womens-intro">
 
-				<h1 class = "yvr-wear">YVR Wear</h1>
+				<h1 class = "yvr-wear">Shop Now.</h1>
 
 	<div class = "cta-buttons">
 
@@ -80,6 +81,9 @@ get_header();
 
 </section>
 <section class = "new-releases-img">
+	
+	<h1 class = "new-releases-hdr">New Releases.</h1>
+
 <?php
 
 					if ( get_field( 'new-releases-cta' ) ) {
@@ -93,7 +97,7 @@ get_header();
 					}
 
 ?>
-<div class = "cta-buttons"> 
+<div class = "other-cta-buttons"> 
 
 <?php
 

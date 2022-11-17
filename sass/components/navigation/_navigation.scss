@@ -74,7 +74,7 @@
 .site-header{
 
 	background-color: white;
-	padding: 2rem 2rem 0rem 2rem;
+	padding: 0rem 2rem 0rem 2rem;
 	z-index: 100;
 }
 
@@ -114,15 +114,39 @@
 	font-family: 'Heebo', sans-serif;
 	text-transform: uppercase;
 	font-weight: 300;
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 	padding-right: 1rem;
+	padding-top: 0.25rem;
+
 
 }
 
 .yvr-header{
 
 	display: flex;
+	position: relative;
+    bottom: -1rem;
+	z-index: 100;
 
+}
+
+#menu-item-415{
+
+padding-left: 60rem;
+padding-top: 0.18rem;
+
+}
+#menu-item-419{
+
+	padding-top: 0.18rem;
+}
+#menu-item-417{
+
+	padding-top: 0.18rem;
+}
+#menu-item-413{
+
+	padding-top: 0.18rem;
 }
 
 .header-menu{
