@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@400;600;700&display=swap');
+
 body{
 
 	background-color: white;
@@ -7,14 +9,19 @@ body{
 h1, h2, h3, h4, h5 p a ul li{
 
 	color: rgb(30, 30, 110);
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: 'Heebo', sans-serif;
 
 }
 
 .tesitmonial-slider{
 
 	padding: 2rem 0.5rem 2rem 0.5rem;
-	background-color: rgb(26, 27, 91);
+
+}
+
+.wp-block-quote p{
+
+	color: rgb(30, 30, 110);
 
 }
 
@@ -37,8 +44,14 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 
 .onsale{
 
+	display: none;
 
-	font-size: 3rem;
+}
+
+.new-releases-products-preview{
+
+	// padding-top: 2rem;
+	// margin-bottom: 4rem;
 
 }
 
@@ -62,6 +75,27 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	color: rgb(177, 219, 240);
 	
+}
+
+.new-releases-preview-text h1{
+
+	font-family: 'Heebo', sans-serif;
+	text-transform: uppercase;
+	font-weight: 400;
+
+
+}
+
+.new-releases-preview-text p{
+
+	float: right;
+
+}
+
+.new-releases-preview-text{
+
+	justify-content: center;
+
 }
 
 // .wp-block-quote cite{
@@ -123,7 +157,8 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 	padding-left: 7rem;
 	padding-top: 8rem;
 	font-size: 7rem;
-	font-family: 'Heebo', sans-serif;
+	// font-family: 'Heebo', sans-serif;
+	font-family: 'Libre Bodoni', serif;
 	font-weight: 500;
 
 }
@@ -158,13 +193,16 @@ ul.products.columns-4 li.product h2{
 .new-releases-preview-text{
 
 	display: flex;
+	position: relative;
 
 
 }
 
 .new-releases-preview-text p{
 
-	float: right;
+	position: absolute;
+    top: 0;
+    right: 0;
 
 }
 
@@ -173,14 +211,13 @@ ul.products.columns-4 li.product h2{
 	display: flex;
     flex-direction: column;
     justify-content: space-between;
-	margin-right: 0.5rem;
+	margin-right: 2rem;
 
 }
 
 .new-releases-products{
 
-	display: grid;
-	grid-template-columns: 800px 800px 800px 800px;
+	justify-content: center;
 
 }
 

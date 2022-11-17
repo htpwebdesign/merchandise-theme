@@ -68,7 +68,7 @@ get_header();
 		
 <div class = "new-releases-preview-text">
 		<h1>New Releases</h1>
-		<p><a href="/">View All</a></p>
+		<p class = "view-all"><a href="/">View All</a></p>
 		</div>
 
 		<div class = "new-releases-products">
@@ -176,10 +176,14 @@ get_header();
 ?>
 </div>
 </section>
+<div class = "new-releases-preview-text">
+		<h1>ON SALE</h1>
+		<p class = "view-all"><a href="/">View All</a></p>
+		</div>
 <section class = "on-sale-products-preview">
 
 		<?php
-			echo do_shortcode('[products limit="5" columns="4" orderby="popularity" class="quick-sale" on_sale="true" ]'); 
+			echo do_shortcode('[products limit="5" columns="4" orderby="popularity" class="quick-sale" ]'); 
 		?>
 
 </section>
