@@ -65,6 +65,14 @@ input[type="submit"] {
 		
 }
 
+.sign-up-button{
+
+	@include CtaButtonStyling();
+
+	padding: 1rem 2rem;
+
+}
+
 .other-cta-buttons{
 
 	padding: 0.75rem 2.75rem;

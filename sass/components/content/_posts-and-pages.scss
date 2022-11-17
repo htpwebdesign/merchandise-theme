@@ -118,6 +118,16 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 
 }
 
+.make-an-account-hdr{
+
+	@include CtaHeadingStyling();
+	position: absolute;
+	top: 304rem;
+	left: 16rem;
+	text-align: center;
+
+}
+
 
 .wp-block-quote{
 
@@ -265,6 +275,19 @@ height: 618px;
 }
 
 .accessories-mask img{
+
+	opacity: 0.6;
+
+}
+
+.make-an-account-mask{
+
+	background-color: black;
+	height: 725px;
+
+}
+
+.make-an-account-mask img{
 
 	opacity: 0.6;
 

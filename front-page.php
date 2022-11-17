@@ -224,7 +224,7 @@ get_header();
 	</div>
 
 
-	<div class = "new-releases-intro">
+
 	<h1 class = "accessories-hdr">Accessories.</h1>
 <div class = "other-cta-buttons"> 
 
@@ -240,11 +240,11 @@ get_header();
 	
 		<?php endif; 
 ?>
-</div>
+
 </div>
 </section>
 <section class = "make-an-account-img">
-
+<div class = "make-an-account-mask">
 <?php
 
 			if ( get_field( 'make_an_account_cta' ) ) {
@@ -257,10 +257,10 @@ get_header();
 		}
 
 		?>
-
+</div>
 <div class = "new-releases-intro">
-	<h1 class = "on-sale">Accessories</h1>
-		<div class = "cta-buttons"> 
+	<h1 class = "make-an-account-hdr">Make An Account</h1>
+		<div class = "other-cta-buttons"> 
 
 <?php
 
@@ -270,7 +270,7 @@ get_header();
 				$link_title = $link['title'];
 				$link_target = $link['target'] ? $link['target'] : '_self';
 			?>
-			<a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
+			<a class="sign-up-button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
 
 		<?php endif; 
 
