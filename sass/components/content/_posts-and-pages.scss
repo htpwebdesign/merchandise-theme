@@ -85,22 +85,30 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 
 }
 
+// .new-releases-img{
+
+// 	position: relative;
+
+// }
+
 .new-releases-hdr{
 
 	@include CtaHeadingStyling();
 
 
 	position: absolute;
-	top: 105rem;
+	top: 106rem;
 	left: 23rem;
 
 }
+
+
 
 .on-sale-hdr{
 
 	@include CtaHeadingStyling();
 	position: absolute;
-	top: 173rem;
+	top: 174rem;
 	left: 33rem;
 	text-align: center;
 	// justify-content: center;
@@ -111,7 +119,7 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 
 	@include CtaHeadingStyling();
 	position: absolute;
-	top: 255rem;
+	top: 256rem;
 	left: 25rem;
 	text-align: center;
 	// justify-content: center;
@@ -122,7 +130,7 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 
 	@include CtaHeadingStyling();
 	position: absolute;
-	top: 304rem;
+	top: 305rem;
 	left: 16rem;
 	text-align: center;
 
@@ -161,6 +169,21 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 
 }
 
+.on-sale-preview-text{
+
+	justify-content: center;
+
+}
+
+.on-sale-preview-text h1 {
+    font-family: "Heebo", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-bottom: 1rem;
+
+}
+
+
 // .wp-block-quote cite{
 
 // 	position: absolute;
@@ -181,10 +204,10 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 // }
 
 
-.post,
-.page {
-	margin: 0 0 1.5em;
-}
+// .post,
+// .page {
+// 	margin: 0 0 1.5em;
+// }
 
 .updated:not(.published) {
 	display: none;
@@ -229,7 +252,9 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 
 
 background-color: black;
-height: 618px;
+width: 100%;
+height: auto;
+
 
 }
 
@@ -244,7 +269,8 @@ height: 618px;
 .new-releases-mask{
 
 	background-color: black;
-	height: 763px;
+	width: 100%;
+	height: auto;
 
 }
 
@@ -257,7 +283,8 @@ height: 618px;
 .on-sale-mask{
 
 	background-color: black;
-	height: 761px;
+	width: 100%;
+	height: auto;
 
 }
 
@@ -270,7 +297,8 @@ height: 618px;
 .accessories-mask{
 
 	background-color: black;
-	height: 753px;
+	width: 100%;
+	height: auto;
 
 }
 
@@ -283,7 +311,8 @@ height: 618px;
 .make-an-account-mask{
 
 	background-color: black;
-	height: 725px;
+	width: 100%;
+	height: auto;
 
 }
 
@@ -332,10 +361,26 @@ ul.products.columns-4 li.product h2{
 .new-releases-preview-text p{
 
 	position: absolute;
-    top: 0;
-    right: 0;
+    top: 0.5rem;
+    right: 23rem;
 
 }
+
+.on-sale-preview-text{
+
+	display: flex;
+	position: relative;
+
+}
+
+.on-sale-preview-text p{
+
+	position: absolute;
+    top: 0.5rem;
+    right: 21rem;
+
+}
+
 
 .product{
 
@@ -352,8 +397,89 @@ ul.products.columns-4 li.product h2{
 
 }
 
+.footer-content h2{
+
+	color: white
+
+}
+
+.footer-content ul li a{
+
+	color: white;
+
+
+}
+
+.footer-content li{
+
+	list-style: none;
+
+}
+
+
+.site-footer{
+
+	background-color: rgb(00, 23, 93);
+	padding-top: 2rem;
+	padding-bottom: 5rem;
+	margin: 0;
+
+
+}
+
+
 .footer-content{
 
 	display: flex;
+	justify-content: center;
+    padding-right: 5rem;
+
+}
+
+.left-footer-content{
+
+	padding-right: 2rem;
+
+}
+
+.middle-footer-content{
+
+	padding-right: 2rem;
+
+}
+
+.second-middle-footer-content{
+
+	padding-right: 2rem;
+
+}
+
+.footer-social-medias{
+
+	display: flex;
+
+}
+
+.footer-social-medias{
+
+	padding-top: 1.5rem;
+
+}
+
+.footer-social-medias li{
+
+padding-right: 0.7rem;
+
+}
+
+.right-footer-content{
+
+	padding-top: 1rem;
+
+}
+
+@media screen and (max-width: 1523px) {
+	
+	
 
 }

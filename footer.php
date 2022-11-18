@@ -38,18 +38,24 @@
 	<h2>THE TEAM</h2>
 		<li><a href="https://balpreetdhillon.com/">Balpreet Dhillon</a></li>
 		<li><a href="https://sufiyan.dev/">Sufiyan Ahmed</a></li>
+		
+		<div class = "footer-social-medias">
+			<li><a href="https://www.instagram.com/"><img src="<?php echo get_template_directory_uri();?>/images/insta.png"></a></li>
+			<li><a href="https://www.facebook.com/"><img src="<?php echo get_template_directory_uri();?>/images/facebok.png"></a></li>
+			<li><a href="https://twitter.com/"><img src="<?php echo get_template_directory_uri();?>/images/twittter.png"></a></li>
+
+		</div>
+
 	</ul>
 
 
 	<ul class = "right-footer-content">
-		<li><a href=""><img src="" alt=""></a></li>
-		<li><a href="">Back to Top Button</a></li>
 
-		<div class = "footer-social-medias">
-			<li><a href="https://www.instagram.com/"><img src="./images/instagram.png" alt="instagram"></a></li>
-			<li><a href="https://www.facebook.com/"><img src="./images/facebook.png" alt="facebook"></a></li>
-			<li><a href="https://twitter.com/"><img src="./images/twitter.png" alt="twitter"></a></li>	
-		</div>
+	<li><a href="http://localhost/merchandisestore/shop/"><div class="col-md-4"><img src="<?php echo get_template_directory_uri();?>/images/footer-image.png"></div></a></li>
+
+
+		<li class = "back-to-home-btn"><a href="http://localhost/merchandisestore/">Back to Home</a></li>
+
 	</ul>
 </div>
 

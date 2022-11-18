@@ -197,7 +197,7 @@ get_header();
 ?>
 </div>
 </section>
-<div class = "new-releases-preview-text">
+<div class = "on-sale-preview-text">
 		<h1>ON SALE</h1>
 		<p class = "view-all"><a href="/">View All</a></p>
 		</div>
