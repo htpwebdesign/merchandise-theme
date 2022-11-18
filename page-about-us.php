@@ -18,10 +18,32 @@ get_header();
 	<main id="primary" class="site-main">
 
 		<?php
+		
 		while ( have_posts() ) :
 			the_post();
 
 			get_template_part( 'template-parts/content', 'page' );
+
+
+			?>
+<div class ="whole-designer-page-content">
+			<div class ="designer-page-content">		
+			<div class = "designers-biographies">
+
+			<?php
+
+
+			$images = get_field('designers-pfp');
+			$size = 'full'; // (thumbnail, medium, large, full or custom size)
+			if( $images ): ?>
+				<ul class = "designers-gallery">
+					<?php foreach( $images as $image_id ): ?>
+						<li>
+							<?php echo wp_get_attachment_image( $image_id, $size ); ?>
+						</li>
+					<?php endforeach; ?>
+				</ul>
+			<?php endif; 
 
 
 			$args = array(
@@ -36,6 +58,18 @@ get_header();
 			if ( $query -> have_posts() ) {
 				while ( $query -> have_posts() ) {
 					$query -> the_post();
+
+
+
+
+					
+?>
+
+</div>
+
+<div class = "designers-wrapper">
+
+<?php
 						the_title();
 
 						// $picture = get_field('designer_profile_picture');
@@ -47,6 +81,16 @@ get_header();
 					// }
 
 
+					
+
+?>
+
+
+
+<div class = "designers-emails">
+
+<?php
+
 					$email = get_field('designers_email');
 					if( $email ) {
 					// Do something.
@@ -54,16 +98,36 @@ get_header();
 					echo $email;
 			
 				}
+
+?>
+
+</div>
+<div class = "designers-phone-numbers">						
+<?php
 			
 					$phonenumber = get_field('designers_phone_number');
 					if( $phonenumber ) {
 					// Do something.
 					echo $phonenumber;}
+
+
+?>
+
+</div>
+<div class = "designers-websites">										
+<?php
 			
 					$website = get_field('designers_website');
 					if( $website ) {
 					// Do something.
 					echo $website;}
+
+				
+?>
+
+</div>
+	<div class = "designers-social-medias">								
+<?php
 			
 					$socialmedia = get_field('designers_social_media');
 					if( $socialmedia ) {
@@ -74,31 +138,25 @@ get_header();
 			
 			wp_reset_postdata();	
 				}
-			
-			
-				$images = get_field('designers-work');
-				$size = 'full'; // (thumbnail, medium, large, full or custom size)
-				if( $images ): ?>
-					<ul class = "designers-gallery">
-						<?php foreach( $images as $image_id ): ?>
-							<li>
-								<?php echo wp_get_attachment_image( $image_id, $size ); ?>
-							</li>
-						<?php endforeach; ?>
-					</ul>
-				<?php endif; 
+		
 		
 		endwhile; // End of the loop.
 
 		
-	
-
-
-
-
-		
  ?>
+</div>
 
+</div>
+</div>	
+
+<div class = "about-us-paragraph">
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut dignissim nisl. Praesent iaculis congue massa, sit amet venenatis sapien aliquam vitae. Pellentesque ut finibus ante. Sed in scelerisque nibh, ac euismod tellus. Aenean mollis diam tellus, vitae rhoncus justo cursus ac. Sed vestibulum vulputate tortor, a sagittis ante lacinia quis. Aenean sit amet magna quis urna mollis consequat sed in eros. Ut condimentum, arcu accumsan facilisis vestibulum, magna ligula venenatis sapien, non mattis magna turpis in dolor. Integer ac enim sed tellus pretium efficitur. Nullam maximus aliquam augue. Quisque aliquam facilisis sollicitudin. Morbi sed porttitor neque. In tellus mi, imperdiet pulvinar orci nec, feugiat volutpat ligula. Curabitur mauris ipsum, consequat eget blandit eget, pulvinar nec felis. </p>
+
+
+</div>
+
+</div>
 
 	</main><!-- #main -->
 
