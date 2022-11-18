@@ -3,7 +3,10 @@ ul.products {
 	padding: 0;
 	display: flex;
     flex-wrap: wrap;
+	// max-width: 60rem;
 	justify-content: center;
+	padding-left: 15rem;
+	padding-right: 15rem;
 
 
 	li.product {
