@@ -16,6 +16,7 @@ get_header();
 ?>
 
 	<main id="primary" class="site-main">
+		<div class = "wrapper">
 	<section class ="mens-womens-img">
 		<div class = "mask">
 
@@ -291,7 +292,7 @@ get_header();
 		?>
 		
 
-
+		</div>
 	</main><!-- #main -->
 
 <?php

@@ -6,6 +6,14 @@ body{
 
 }
 
+.wrapper{
+
+	max-width: 1920px;
+	justify-content: center;
+    margin: 0 auto;
+
+}
+
 h1, h2, h3, h4, h5 p a ul li{
 
 	color: rgb(30, 30, 110);
@@ -85,22 +93,34 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 
 }
 
-// .new-releases-img{
+.new-releases-img{
 
-// 	position: relative;
-
-// }
-
-.new-releases-hdr{
-
-	@include CtaHeadingStyling();
-
-
-	position: absolute;
-	top: 106rem;
-	left: 23rem;
+	position: relative;
 
 }
+
+.new-releases-img h1{
+	@include CtaHeadingStyling();
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	top: 9rem;
+
+
+	// left: 23rem;
+
+}
+
+// .new-releases-hdr{
+
+// 	@include CtaHeadingStyling();
+
+
+// 	position: absolute;
+// 	top: 106rem;
+// 	left: 23rem;
+
+// }
 
 
 
