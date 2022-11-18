@@ -681,16 +681,18 @@ padding-bottom: 5rem;
 
 }
 
-.designers-biographies{
+// .designers-biographies{
 
-	padding-left: 5rem;
+// 	padding-left: 5rem;
 
-}
+// }
 
 .designer-page-content{
 
 
 	display: flex;
+	justify-content: center;
+padding-right: 6rem;
 
 }
 
@@ -714,5 +716,26 @@ padding-bottom: 5rem;
 	font-weight: 400;
 	color: rgb(00, 23, 93);
 	padding-left: 5rem;
+
+}
+
+form.checkout.woocommerce-checkout {
+
+	
+    margin-left: auto;
+    margin-right: auto;
+    width: 30rem;
+
+}
+
+.woocommerce-info{
+color:	rgb(00, 23, 93) ;
+
+	margin-left: auto;
+    margin-right: auto;
+    width: 30rem;
+	font-family: 'Heebo', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
 
 }
