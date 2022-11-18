@@ -35,9 +35,11 @@ h1, h2, h3, h4, h5 p a ul li{
 
 div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
     height: 120px;
-    width: 33.5rem;
+    width: 29rem;
 
 }
+
+
 .wpforms-field-medium{
 
 	padding-right: 10rem;
@@ -232,6 +234,14 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 .entry-content,
 .entry-summary {
 	margin: 1.5em 0 0;
+
+	
+}
+
+.entry-content{
+
+	padding-bottom: 10rem;
+
 }
 
 .page-links {
@@ -360,8 +370,7 @@ ul.products.columns-4 li.product h2{
 	font-family: 'Heebo', sans-serif;
 	text-transform: uppercase;
 	font-weight: 300;
-	color: rgb(00, 23, 93)
-
+	color: rgb(00, 23, 93);
 
 }
 
@@ -603,13 +612,44 @@ padding: 5rem 10rem 10rem 10rem;
 
 #post-22{
 
-	// padding-right: 30rem;
-	// padding-left: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30rem;
 
 }
 
-img.attachment-full.size-full{
+.coupon{
 
-	padding: 5rem 0rem 5rem 30rem;
+	padding-top: 3rem;
+	padding-left: 2rem;
+
+}
+
+.cart_totals{
+
+	// margin-left: auto;
+    // margin-right: auto;
+    // width: 90rem;
+
+}
+
+.input-text{
+
+	margin-bottom: 1rem;
+
+}
+
+
+.cart-collaterals{
+
+	text-align: center;
+
+}
+
+.cart_totals{
+
+	margin-left: auto;
+    margin-right: auto;
+    width: 20rem;
 
 }
