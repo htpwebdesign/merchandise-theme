@@ -33,11 +33,6 @@ h1, h2, h3, h4, h5 p a ul li{
 
 }
 
-#post-22{
-
-	padding-right: 45rem;
-
-}
 div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
     height: 120px;
     width: 33.5rem;
@@ -553,5 +548,68 @@ padding-right: 0.7rem;
 .widget-area{
 
 	display: none;
+
+}
+
+.woocommerce-pagination {
+    padding-right: 6.5rem;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.page-numbers{
+
+	display: flex;
+
+}
+
+.woocommerce-pagination li {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.term-description{
+
+	display: none;
+
+}
+
+.entry-title{
+
+	text-align: center;
+	padding-top: 2rem;
+	font-family: 'Heebo', sans-serif;
+	text-transform: uppercase;
+
+}
+
+.woocommerce-MyAccount-navigation{
+
+	text-align: center;
+	padding-right: 5rem;
+
+}
+
+.woocommerce-MyAccount-content{
+
+padding: 5rem 10rem 10rem 10rem;
+
+}
+
+#post-22{
+
+	// padding-right: 30rem;
+	// padding-left: 30rem;
+
+}
+
+img.attachment-full.size-full{
+
+	padding: 5rem 0rem 5rem 30rem;
 
 }
