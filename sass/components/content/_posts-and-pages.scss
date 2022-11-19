@@ -6,14 +6,14 @@ body{
 
 }
 
-html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
-}
+// html,body
+// {
+//     width: 100%;
+//     height: 100%;
+//     margin: 0px;
+//     padding: 0px;
+//     overflow-x: hidden; 
+// }
 
 .wrapper{
 
@@ -110,7 +110,7 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 	text-align: center;
 	width: 100%;
 	position: absolute;
-	top: 9rem;
+	top: 16rem;
 
 
 	// left: 23rem;
@@ -141,26 +141,45 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 
 }
 
+.on-sale-img{
+
+	position: relative;
+	text-align: center
+
+}
+
+.on-sale-img h1{
+
+		@include CtaHeadingStyling();
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	top: 16rem;
+	padding-right: 65rem
+
+
+}
+
 .accessories-hdr{
 
-	@include CtaHeadingStyling();
-	position: absolute;
-	top: 256rem;
-	left: 25rem;
-	text-align: center;
+	// @include CtaHeadingStyling();
+	// position: absolute;
+	// top: 256rem;
+	// left: 25rem;
+	// text-align: center;
 	// justify-content: center;
 
 }
 
-.make-an-account-hdr{
+// .make-an-account-hdr{
 
-	@include CtaHeadingStyling();
-	position: absolute;
-	top: 305rem;
-	left: 16rem;
-	text-align: center;
+// 	@include CtaHeadingStyling();
+// 	position: absolute;
+// 	top: 305rem;
+// 	left: 16rem;
+// 	text-align: center;
 
-}
+// }
 
 
 .wp-block-quote{
@@ -326,6 +345,45 @@ height: auto;
 
 	opacity: 0.6;
 
+}
+
+.accessories-img{
+
+	position: relative;
+
+}
+
+.accessories-img h1{
+
+    font-size: 7rem;
+	color: white;
+    font-family: "Heebo", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: absolute;
+    top: 16rem;
+    left: 37rem; 
+    text-align: center;
+
+}
+
+.make-an-account-img{
+
+	position: relative;
+
+}
+
+.make-an-account-img h1{
+
+	font-size: 7rem;
+	color: white;
+    font-family: "Heebo", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: absolute;
+    top: 13rem;
+    left: 27rem; 
+    text-align: center;
 }
 
 .accessories-mask{
@@ -748,3 +806,25 @@ color:	rgb(00, 23, 93) ;
 	text-align: center;
 
 }
+
+// .woocommerce{
+
+	
+//     margin-left: auto;
+//     margin-right: auto;
+//     width: 30rem;
+
+
+// }
+
+
+@media screen and (max-width: 505px) {
+
+// .entry-title{
+
+// 	padding-right: 10rem;
+
+// }
+	
+}
+

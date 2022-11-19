@@ -70,7 +70,7 @@ get_header();
 		
 <div class = "new-releases-preview-text">
 		<h1>New Releases</h1>
-		<p class = "view-all"><a href="/">View All</a></p>
+		<p class = "view-all"><a href="http://localhost/merchandisestore/product-category/new-releases/">View All</a></p>
 		</div>
 
 		<div class = "new-releases-products">
@@ -176,10 +176,8 @@ get_header();
 	</div>
 
 
-	<div class = "new-releases-intro">
-
-		<h1 class = "on-sale-hdr">On Sale.</h1>
-
+	<div class = "on-sale-intro">
+<div class = "on-sale-heading"><h1 class = "on-sale-hdr">On Sale.</h1></div>
 
 				<div class = "other-cta-buttons"> 
 				
@@ -196,6 +194,7 @@ get_header();
 		
 		<?php endif; 
 ?>
+</div>
 </div>
 </section>
 <div class = "on-sale-preview-text">
@@ -225,7 +224,7 @@ get_header();
 	</div>
 
 
-
+	<div class = "accessories-intro">
 	<h1 class = "accessories-hdr">Accessories.</h1>
 <div class = "other-cta-buttons"> 
 
@@ -241,7 +240,7 @@ get_header();
 	
 		<?php endif; 
 ?>
-
+</div>
 </div>
 </section>
 <section class = "make-an-account-img">
@@ -259,7 +258,7 @@ get_header();
 
 		?>
 </div>
-<div class = "new-releases-intro">
+<div class = "make-an-account-intro">
 	<h1 class = "make-an-account-hdr">Make An Account</h1>
 		<div class = "other-cta-buttons"> 
 
