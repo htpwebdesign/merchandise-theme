@@ -47,7 +47,7 @@
 		</div><!-- .site-branding -->
 		<div class = "header-menu">
 		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'merchandise-theme' ); ?></button>
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"> <?php esc_html_e( 'Menu', 'merchandise-theme' ); ?></button>
 			<?php
 			wp_nav_menu(
 				array(

@@ -3,6 +3,7 @@
 body{
 
 	background-color: white;
+	overflow-x: hidden;
 
 }
 
@@ -112,21 +113,7 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 	position: absolute;
 	top: 11rem;
 
-
-	// left: 23rem;
-
 }
-
-// .new-releases-hdr{
-
-// 	@include CtaHeadingStyling();
-
-
-// 	position: absolute;
-// 	top: 106rem;
-// 	left: 23rem;
-
-// }
 
 
 
@@ -518,32 +505,22 @@ ul.products.columns-4 li.product h2{
 
 }
 
-
 .footer-content{
 
-	display: flex;
 	justify-content: center;
-    padding-right: 5rem;
 
 }
 
-.left-footer-content{
+@media screen and (min-width: 415px){
 
-	padding-right: 2rem;
 
+	.footer-content {
+		display: flex;
+		padding-right: 5rem;
+	}
+	
 }
 
-.middle-footer-content{
-
-	padding-right: 2rem;
-
-}
-
-.second-middle-footer-content{
-
-	padding-right: 2rem;
-
-}
 
 .footer-social-medias{
 
@@ -827,4 +804,209 @@ color:	rgb(00, 23, 93) ;
 // }
 	
 }
+
+@media screen and (min-width: 900px){
+
+.left-footer-side{
+
+	display: flex;
+
+}
+
+.right-footer-side{
+
+	display: flex;
+
+}
+
+.back-to-home-btn {
+
+	padding: 1rem 2rem 1rem 2rem;
+
+}
+}
+
+@media screen and (max-width: 900px){
+
+	.left-footer-content {
+
+		margin-bottom: 5.5rem;
+
+	}
+}
+
+@media screen and (max-width: 508px){
+
+	#post-22 {
+    
+		width: 18rem;
+
+	}
+	
+}
+
+@media screen and (max-width: 612px){
+
+	.left-footer-content {
+		margin-bottom: 6.5rem;
+	}
+	
+}
+
+@media screen and (max-width: 568px){
+
+	.left-footer-content {
+		margin-bottom: 7.75rem;
+	}
+	
+}
+
+@media screen and (max-width: 557px){
+
+	.left-footer-content {
+		margin-bottom: 9.75rem;
+	}
+	
+}
+
+@media screen and (max-width: 552px){
+
+	.right-footer-content {
+		padding-top: 3.5rem;
+	}
+
+	.back-to-home-btn{
+
+		font-size: 0.75rem;
+
+	}
+}
+
+@media screen and (max-width: 415px){
+
+	.footer-content {
+    
+		width: 18rem;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		left: -1rem;
+
+	}
+
+	.middle-footer-content {
+		position: relative;
+		top: -7rem;
+	}
+
+	.second-middle-footer-content {
+		padding-right: 2rem;
+		position: relative;
+		top: -6rem;
+	}
+
+	.right-footer-content {
+		padding-right: 2rem;
+		position: relative;
+		top: -8rem;
+	}
+
+	
+}
+
+
+
+.left-footer-content{
+
+	padding-right: 2rem;
+
+}
+
+.middle-footer-content{
+
+	padding-right: 2rem;
+
+}
+
+.second-middle-footer-content{
+
+	padding-right: 2rem;
+
+}
+
+
+#post-13 .entry-content{
+
+	position: relative;
+
+}
+
+#post-13 .woocommerce{
+
+text-align: center;
+
+}
+
+@media screen and (min-width: 396px) {
+	
+	#post-13 > div > div > form > p:nth-child(2){
+
+		position: relative;
+		right: -3.9rem;
+
+	}
+}
+
+@media screen and (max-width: 396px) {
+
+#post-13 > div > div > form > p:nth-child(2){
+
+	display:flex;
+	flex-direction:column;
+
+}
+
+#password{
+
+	max-width: 13rem;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+}
+
+
+#post-13 > div > div > form{
+
+	position: relative;
+		
+}
+
+@media screen and (max-width: 396px) {
+	
+	#post-13 > div > div > form > p:nth-child(2){
+
+		// max-width: 1rem;
+		// position: relative;
+
+
+	}
+}
+// 	#post-13 > div > div > form > p:nth-child(2) > label{
+
+// 		position: absolute;
+// 		right: -1rem;
+
+// 	}
+
+// 	#password{
+
+// 		position: relative;
+// 		right: -2.5rem;
+
+// 	}
+
+// }
 

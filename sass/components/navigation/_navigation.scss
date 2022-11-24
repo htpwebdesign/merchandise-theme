@@ -17,6 +17,7 @@
 			top: 100%;
 			left: -999em;
 			z-index: 99999;
+			display: block;
 
 			ul {
 				left: -999em;
@@ -82,16 +83,11 @@
 
 }
 
-.site-branding{
-
-	padding-right: 2rem;
-
-}
-
 #primary-menu{
 
 	padding-top: 0.8rem;
-
+	position: absolute;
+    right: 0;
 }
 
 .sub-header{
@@ -134,24 +130,6 @@
 
 }
 
-#menu-item-415{
-
-
-padding-top: 0.18rem;
-
-}
-#menu-item-419{
-
-	padding-top: 0.18rem;
-}
-#menu-item-417{
-
-	padding-top: 0.18rem;
-}
-#menu-item-413{
-
-	padding-top: 0.18rem;
-}
 
 .header-menu{
 
@@ -163,6 +141,10 @@ padding-top: 0.18rem;
 .menu-toggle,
 .main-navigation.toggled ul {
 	display: block;
+	position: absolute;
+	right: 0rem;
+	top: 0.8rem;
+
 }
 
 @media screen and (min-width: 37.5em) {
@@ -195,5 +177,22 @@ padding-top: 0.18rem;
 	.nav-next {
 		text-align: end;
 		flex: 1 0 50%;
+	}
+}
+
+@media screen and (min-width: 600px) {
+
+	.site-branding {
+
+		padding-left: 2rem;
+		
+	}
+
+	.menu-toggle{
+
+		position: absolute;
+    	right: 2rem;
+		top: 0.8rem;
+
 	}
 }

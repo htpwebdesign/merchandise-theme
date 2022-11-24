@@ -26,10 +26,12 @@ get_header();
 
 
 			?>
+			
 <div class ="whole-designer-page-content">
+	
 			<div class ="designer-page-content">		
 			<div class = "designers-biographies">
-
+				
 			<?php
 
 
