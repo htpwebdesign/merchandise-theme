@@ -5,8 +5,6 @@ ul.products {
     flex-wrap: wrap;
 	// max-width: 60rem;
 	justify-content: center;
-	padding-left: 15rem;
-	padding-right: 15rem;
 	padding-bottom:5rem;
 
 
@@ -18,12 +16,32 @@ ul.products {
 		img {
 			display: block;
 		}
+		
 
-		.button {
-			display: block;
-			margin-top: 5rem;
-		}
 	}
 }
 
 
+@media screen and (min-width: 1024px){
+
+	.button {
+		display: block;
+		margin-top: 5rem;
+	}
+
+}
+
+@media screen and (max-width: 1024px){
+
+	.button {
+
+		display: block;
+		margin-top: 1rem;
+		width: 80px;
+		padding: 0.5rem 0rem 0.5rem 0rem;
+		font-size: 0.5rem;
+
+
+	}
+
+}

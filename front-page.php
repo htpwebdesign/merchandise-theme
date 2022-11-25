@@ -69,7 +69,7 @@ get_header();
 <section class = "new-releases-products-preview">
 		
 <div class = "new-releases-preview-text">
-		<h1 class = "hdr">New Releases</h1>
+		<h1>New Releases</h1>
 		<p class = "view-all"><a href="http://localhost/merchandisestore/product-category/new-releases/">View All</a></p>
 		</div>
 
@@ -199,7 +199,7 @@ get_header();
 </div>
 </section>
 <div class = "on-sale-preview-text">
-		<h1 class = "hdr">ON SALE</h1>
+		<h1>ON SALE</h1>
 		<p class = "view-all"><a href="/">View All</a></p>
 		</div>
 <section class = "on-sale-products-preview">

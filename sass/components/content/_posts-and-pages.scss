@@ -72,22 +72,20 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 
 .mens-womens-intro{
 
-	// position: relative;
-	// top: -30rem;
-
 	position: absolute;
-	top: 0;
-	// widows: 100%;
+	top: 4rem;
+    left: 6rem;
 
 }
 
+@media screen and (min-width: 1024px){
 .new-releases-products-preview{
 
 	padding-top: 8.25rem;
 	padding-bottom: 8.25rem;
 
 }
-
+}
 
 
 @mixin CtaHeadingStyling {
@@ -183,6 +181,21 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 
 }
 
+@media screen and (max-width: 1024px){
+
+	.new-releases-preview-text h1{
+
+		font-size: 1.25rem;
+
+	}
+
+	.new-releases-preview-text p {
+
+		font-size: 0.75rem;
+
+	}
+}
+
 .new-releases-preview-text p{
 
 	float: right;
@@ -261,7 +274,7 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 .mens-womens-img{
 
 	width: 100%;
-    height: 90%;
+    height: auto;
     background-size: cover;
     background-position: center;
     object-fit: cover;
@@ -274,8 +287,6 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 
 
 	color:  white;
-	padding-left: 7rem;
-	padding-top: 8rem;
 	font-size: 7rem;
 	font-family: 'Heebo', sans-serif;
 	font-weight: 600;
@@ -283,23 +294,252 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 
 }
 
-// @media screen and (min-width: 415px){
+@media screen and (max-width: 1089px){
 
-// 	.yvr-wear{
+	.yvr-wear{
 
-// 		font-size: 6rem;
+		font-size: 6rem;
 
-// 	}
-// }
+	}
+
+	.mens-button{
+
+		font-size: 1rem;
+		padding: 0.6rem 2.25rem;
+
+	}
+
+	.womens-button{
+
+		font-size: 1rem;
+		padding: 0.6rem 1.75rem;
+		
+	}
+}
+
+@media screen and (max-width: 949px){
+
+	.yvr-wear{
+
+		font-size: 5rem;
+
+	}
+
+	.mens-button{
+
+		font-size: 0.75rem;
+		padding: 0.5rem 1.8rem;
+
+	}
+
+	.womens-button{
+
+		font-size: 0.75rem;
+		padding: 0.5rem 1.3rem;
+		
+	}
+}
+
+@media screen and (max-width: 800px){
+
+	.yvr-wear{
+
+		font-size: 4rem;
+		padding-bottom: 1rem;
+
+	}
+
+	.mens-button{
+
+		font-size: 0.65rem;
+		padding: 0.5rem 1.7rem;
+
+	}
+
+	.womens-button{
+
+		font-size: 0.65rem;
+		padding: 0.5rem 1.2rem;
+		
+	}
+
+	.mens-womens-intro{
+
+		top: 6rem;
+
+	}
+}
+
+
+@media screen and (max-width: 689px){
+
+	.yvr-wear{
+
+		font-size: 3.5rem;
+		padding-bottom: 1rem;
+
+	}
+
+	.mens-button{
+
+		font-size: 0.5rem;
+		padding: 0.4rem 1.5rem;
+
+	}
+
+	.womens-button{
+
+		font-size: 0.5rem;
+		padding: 0.4rem 1rem;
+		
+	}
+}
+
+@media screen and (max-width: 620px){
+
+	.yvr-wear{
+
+		font-size: 3rem;
+		padding-bottom: 1.5rem;
+
+	}
+
+	.mens-button{
+
+		font-size: 0.45rem;
+		padding: 0.35rem 1.4rem;
+
+	}
+
+	.womens-button{
+
+		font-size: 0.45rem;
+		padding: 0.35rem 0.9rem;
+		
+	}
+
+	.mens-womens-intro{
+
+		left: 4rem;
+	
+	}
+
+}
+
+
+
+@media screen and (max-width: 505px){
+
+
+	.yvr-wear{
+
+		font-size: 2.5rem;
+		padding-bottom: 2rem;
+
+	}
+
+	.mens-button{
+
+		font-size: 0.4rem;
+		padding: 0.3rem 1.1rem;
+
+	}
+
+	.womens-button{
+
+		font-size: 0.4rem;
+		padding: 0.3rem 0.6rem;
+		
+	}
+
+.mens-womens-intro{
+
+	left: 3rem;
+
+}
+
+}
+
+@media screen and (max-width: 1437px){
+
+	.wp-block-quote p{
+
+		inline-size: 40rem;
+		overflow-wrap: break-word;
+		margin-right: auto;
+    	margin-left: auto;
+	}
+}
+
+@media screen and (max-width: 1056px){
+
+	.wp-block-quote p{
+
+		inline-size: 30rem;
+		overflow-wrap: break-word;
+		margin-right: auto;
+    	margin-left: auto;
+	}
+}
+
+
+
+@media screen and (max-width: 827px){
+
+	.wp-block-quote p{
+
+		font-size: 1rem;
+		inline-size: 20rem;
+		overflow-wrap: break-word;
+
+	}
+
+	.wp-block-quote cite{
+
+		font-size: 1rem;
+		inline-size: 20rem;
+		overflow-wrap: break-word;
+
+	}
+
+}
+
+
+@media screen and (max-width: 500px){
+
+	.wp-block-quote p{
+
+		font-size: 0.75rem;
+
+	}
+
+	.wp-block-quote cite{
+
+		font-size: 0.75rem;
+
+	}
+
+}
+
+@media screen and (max-width: 500px){
+
+	.wp-block-quote p{
+    inline-size: 15rem;
+    overflow-wrap: break-word;
+	}
+}
 // .mask {
 
 
-// background-color: black;
-// width: 100%;
-// height: auto;
-
-
-// }
+    // width: 100%;
+    // height: 450px;
+    // -o-object-fit: cover;
+    // object-fit: cover;
+    // -o-object-position: 50% 30%;
+    // object-position: 50% 30%;
+    // opacity: 0.75;
+    // vertical-align: middle;
+// c
 
 // .mask img{
 
@@ -396,13 +636,57 @@ ul.products.columns-4 li.product img{
 	width: 150px;
 	height: auto;
 
+}
+
+@media screen and (max-width: 1024px){
+
+	ul.products.columns-4 li.product img{
+
+		width: 80px;
+		height: auto;	
+
+	}	
+
+	#primary > div > section.new-releases-products-preview > div.new-releases-products > div > ul{
+
+		padding-left: 2rem;
+
+	}
+
+	#primary > div > section.on-sale-products-preview > div > ul{
+
+		padding-left: 2rem;
+
+	}
+
+.price{
+
+	font-size: 0.7rem;
 
 }
 
-ul.products.columns-4 li.product h2{
+#primary > div > section.new-releases-products-preview > div.new-releases-products > div > ul > li.product.type-product.post-371.status-publish.instock.product_cat-new-releases.product_tag-gym-wear.product_tag-men.product_tag-socks.has-post-thumbnail.sale.taxable.shipping-taxable.purchasable.product-type-simple > a.woocommerce-LoopProduct-link.woocommerce-loop-product__link > span.price > ins > span{
+
+	font-size: 0.8rem;
+
+}
+
+
+}
+
+@media screen and (min-width: 600px){
+ul.products.columns-4 li.product h2 {
 
 	font-size: 1rem;
-	inline-size: 150px;
+
+}
+}
+
+
+ul.products.columns-4 li.product h2{
+
+	font-size: 0.7rem;
+	inline-size: 80px;
 	overflow-wrap: break-word;
 	font-family: 'Heebo', sans-serif;
 	text-transform: uppercase;
@@ -413,35 +697,68 @@ ul.products.columns-4 li.product h2{
 
 .new-releases-preview-text{
 
-	display: flex;
-	position: relative;
-
+    display: flex;
+    position: relative;
+    max-width: 54%;
+	margin-right: auto;
+    margin-left: auto;
 
 }
-
+@media screen and (min-width: 1563px) {
 .new-releases-preview-text p{
 
 	position: absolute;
     top: 0.5rem;
-    right: 23rem;
-
+    right: 1rem;
 }
+}
+
+@media screen and (min-width: 1024px) {
+
+	.new-releases-preview-text p{
+		position: absolute;
+		top: 3.5rem;
+	}
+}  
+
+@media screen and (max-width: 1024px) {
+
+	.new-releases-preview-text p{
+
+		position: absolute;
+		top: 2rem;	
+
+	}
+}
+
 
 .on-sale-preview-text{
 
 	display: flex;
-	position: relative;
+    position: relative;
+	max-width: 54%;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 
+@media screen and (min-width: 1563px) {
 .on-sale-preview-text p{
 
 	position: absolute;
     top: 0.5rem;
-    right: 21rem;
+    right: 0;
 
 }
+}
 
+@media screen and (max-width: 1563px) {
+
+	.on-sale-preview-text p{
+		position: absolute;
+		top: 3.5rem;
+	}
+}  
 
 .product{
 
@@ -1035,6 +1352,17 @@ text-align: center;
 	}
 
 }
+
+@media screen and (max-width: 480px){
+
+	.hdr{
+
+		font-size: 2rem;
+
+	}
+
+}
+
 
 @media screen and (max-width: 1160px) {
 
