@@ -57,14 +57,6 @@ input[type="submit"] {
 		
 }
 
-.accessories-button{
-
-	@include CtaButtonStyling();
-
-	padding: 1rem 2rem;
-		
-}
-
 .sign-up-button{
 
 	@include CtaButtonStyling();
@@ -73,12 +65,53 @@ input[type="submit"] {
 
 }
 
+@media screen and (max-width: 1020px) {
+
+	.sign-up-button {
+
+		font-size: 0.9rem;
+		padding: 0.75rem 1.25rem;
+		position: relative;
+		bottom: -1rem;
+	
+	}
+	
+	.home-page-button{
+	
+		font-size: 0.9rem;
+		padding: 0.75rem 1.25rem;
+		position: relative;
+		bottom: -1rem;
+	
+	}
+}
+
+@media screen and (max-width: 835px) {
+.sign-up-button {
+
+	font-size: 0.75rem;
+	padding: 0.5rem 1rem;
+	position: relative;
+	bottom: -1rem;
+
+}
+
+.home-page-button{
+
+	font-size: 0.75rem;
+	padding: 0.5rem 1rem;
+	position: relative;
+	bottom: -1rem;
+
+}
+}
+
 .other-cta-buttons{
 
 	padding: 0.75rem 2.75rem;
 	text-align: center;
-	position: relative;
-	top: -22.5rem;
+    position: relative;
+    top: -4rem;
 
 
 }

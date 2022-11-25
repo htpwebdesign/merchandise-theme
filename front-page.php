@@ -69,7 +69,7 @@ get_header();
 <section class = "new-releases-products-preview">
 		
 <div class = "new-releases-preview-text">
-		<h1>New Releases</h1>
+		<h1 class = "hdr">New Releases</h1>
 		<p class = "view-all"><a href="http://localhost/merchandisestore/product-category/new-releases/">View All</a></p>
 		</div>
 
@@ -99,9 +99,9 @@ get_header();
 ?>
 		</div>
 
-	<div class = "new-releases-intro">
+	<div class = "cta-intro">
 
-		<h1 class = "new-releases-hdr">New Releases.</h1>
+		<h1 class = "hdr">New Releases.</h1>
 
 			<div class = "other-cta-buttons"> 
 
@@ -176,8 +176,8 @@ get_header();
 	</div>
 
 
-	<div class = "on-sale-intro">
-<div class = "on-sale-heading"><h1 class = "on-sale-hdr">On Sale.</h1></div>
+	<div class = "cta-intro">
+		<h1 class = "hdr">On Sale.</h1>
 
 				<div class = "other-cta-buttons"> 
 				
@@ -189,16 +189,17 @@ get_header();
 					$link_title = $link['title'];
 					$link_target = $link['target'] ? $link['target'] : '_self';
 				?>
-				<a class="on-sale-button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
+				<a class="home-page-button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
 				
 		
 		<?php endif; 
+
 ?>
 </div>
 </div>
 </section>
 <div class = "on-sale-preview-text">
-		<h1>ON SALE</h1>
+		<h1 class = "hdr">ON SALE</h1>
 		<p class = "view-all"><a href="/">View All</a></p>
 		</div>
 <section class = "on-sale-products-preview">
@@ -224,8 +225,8 @@ get_header();
 	</div>
 
 
-	<div class = "accessories-intro">
-	<h1 class = "accessories-hdr">Accessories.</h1>
+	<div class = "cta-intro">
+	<h1 class = "hdr">Accessories.</h1>
 <div class = "other-cta-buttons"> 
 
 <?php
@@ -236,7 +237,7 @@ get_header();
 				$link_title = $link['title'];
 				$link_target = $link['target'] ? $link['target'] : '_self';
 			?>
-			<a class="accessories-button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
+			<a class="home-page-button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
 	
 		<?php endif; 
 ?>
@@ -258,8 +259,8 @@ get_header();
 
 		?>
 </div>
-<div class = "make-an-account-intro">
-	<h1 class = "make-an-account-hdr">Make An Account</h1>
+<div class = "cta-intro">
+	<h1 class = "hdr">Make An Account</h1>
 		<div class = "other-cta-buttons"> 
 
 <?php
@@ -270,7 +271,7 @@ get_header();
 				$link_title = $link['title'];
 				$link_target = $link['target'] ? $link['target'] : '_self';
 			?>
-			<a class="sign-up-button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
+			<a class="home-page-button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
 
 		<?php endif; 
 

@@ -16,6 +16,7 @@ get_header();
 ?>
 
 	<main id="primary" class="site-main">
+		<div class = "designers-page">
 
 		<?php
 		
@@ -158,7 +159,12 @@ get_header();
 
 </div>
 
+<!-- <p class = "bottom-about-us-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut dignissim nisl. Praesent iaculis congue massa, sit amet venenatis sapien aliquam vitae. Pellentesque ut finibus ante. Sed in scelerisque nibh, ac euismod tellus. Aenean mollis diam tellus, vitae rhoncus justo cursus ac. Sed vestibulum vulputate tortor, a sagittis ante lacinia quis. Aenean sit amet magna quis urna mollis consequat sed in eros. Ut condimentum, arcu accumsan facilisis vestibulum, magna ligula venenatis sapien, non mattis magna turpis in dolor. Integer ac enim sed tellus pretium efficitur. Nullam maximus aliquam augue. Quisque aliquam facilisis sollicitudin. Morbi sed porttitor neque. In tellus mi, imperdiet pulvinar orci nec, feugiat volutpat ligula. Curabitur mauris ipsum, consequat eget blandit eget, pulvinar nec felis. </p>
+ -->
+
 </div>
+</div>
+
 
 	</main><!-- #main -->
 

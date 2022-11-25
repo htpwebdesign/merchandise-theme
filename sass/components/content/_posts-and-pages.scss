@@ -106,14 +106,18 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 
 }
 
-.new-releases-img h1{
-	@include CtaHeadingStyling();
-	text-align: center;
-	width: 100%;
+
+
+.cta-intro{
+
 	position: absolute;
-	top: 11rem;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+	white-space: nowrap;
 
 }
+
 
 
 
@@ -135,17 +139,7 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 
 }
 
-.on-sale-img h1{
 
-		@include CtaHeadingStyling();
-	text-align: center;
-	width: 100%;
-	position: absolute;
-	top: 11rem;
-	left: 1rem;
-
-
-}
 
 .accessories-hdr{
 
@@ -271,6 +265,7 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
     background-size: cover;
     background-position: center;
     object-fit: cover;
+	position: relative;
 
 
 }
@@ -288,51 +283,59 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 
 }
 
-.mask {
+// @media screen and (min-width: 415px){
+
+// 	.yvr-wear{
+
+// 		font-size: 6rem;
+
+// 	}
+// }
+// .mask {
 
 
-background-color: black;
-width: 100%;
-height: auto;
+// background-color: black;
+// width: 100%;
+// height: auto;
 
 
-}
+// }
 
-.mask img{
+// .mask img{
 
 	
-	opacity: 0.6;
+// 	opacity: 0.6;
 
 
-}
+// }
 
-.new-releases-mask{
+// .new-releases-mask{
 
-	background-color: black;
-	width: 100%;
-	height: auto;
+// 	background-color: black;
+// 	width: 100%;
+// 	height: auto;
 
-}
+// }
 
-.new-releases-mask img{
+// .new-releases-mask img{
 
-	opacity: 0.6;
+// 	opacity: 0.6;
 
-}
+// }
 
-.on-sale-mask{
+// .on-sale-mask{
 
-	background-color: black;
-	width: 100%;
-	height: auto;
+// 	background-color: black;
+// 	width: 100%;
+// 	height: auto;
 
-}
+// }
 
-.on-sale-mask img{
+// .on-sale-mask img{
 
-	opacity: 0.6;
+// 	opacity: 0.6;
 
-}
+// }
 
 .accessories-img{
 
@@ -340,19 +343,6 @@ height: auto;
 
 }
 
-.accessories-img h1{
-
-    font-size: 7rem;
-	color: white;
-    font-family: "Heebo", sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;
-    position: absolute;
-    top: 11rem;
-    left: 25rem; 
-    text-align: center;
-
-}
 
 .make-an-account-img{
 
@@ -360,46 +350,39 @@ height: auto;
 
 }
 
-.make-an-account-img h1{
+.hdr{
 
-	font-size: 7rem;
-	color: white;
-    font-family: "Heebo", sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;
-    position: absolute;
-    top: 9rem;
-    left: 17rem; 
-    text-align: center;
+	@include CtaHeadingStyling();
+	text-align: center;
 }
 
-.accessories-mask{
+// .accessories-mask{
 
-	background-color: black;
-	width: 100%;
-	height: auto;
+// 	background-color: black;
+// 	width: 100%;
+// 	height: auto;
 
-}
+// }
 
-.accessories-mask img{
+// .accessories-mask img{
 
-	opacity: 0.6;
+// 	opacity: 0.6;
 
-}
+// }
 
-.make-an-account-mask{
+// .make-an-account-mask{
 
-	background-color: black;
-	width: 100%;
-	height: auto;
+// 	background-color: black;
+// 	width: 100%;
+// 	height: auto;
 
-}
+// }
 
-.make-an-account-mask img{
+// .make-an-account-mask img{
 
-	opacity: 0.6;
+// 	opacity: 0.6;
 
-}
+// }
 
 
 .new-releases-products-preview .onsale {
@@ -666,8 +649,19 @@ padding: 5rem 10rem 10rem 10rem;
 
 	padding-top: 3rem;
 	padding-left: 2rem;
+	padding-right: 2rem;
+	float: right;
+}
+
+#post-11 > div > div > form > table > tbody > tr:nth-child(2) > td > button{
+
+	position: absolute;
+	right: 2.1rem;
+    padding: 0.55rem 0.9rem;
 
 }
+
+
 
 .cart_totals{
 
@@ -718,13 +712,6 @@ padding-bottom: 5rem;
 
 }
 
-.designers-gallery{
-
-	padding-right: 2rem;
-
-
-}
-
 // .designers-biographies{
 
 // 	padding-left: 5rem;
@@ -733,10 +720,8 @@ padding-bottom: 5rem;
 
 .designer-page-content{
 
-
-	display: flex;
 	justify-content: center;
-padding-right: 6rem;
+	padding-right: 6rem;
 
 }
 
@@ -947,15 +932,6 @@ text-align: center;
 
 }
 
-@media screen and (min-width: 396px) {
-	
-	#post-13 > div > div > form > p:nth-child(2){
-
-		position: relative;
-		right: -3.9rem;
-
-	}
-}
 
 @media screen and (max-width: 396px) {
 
@@ -977,6 +953,12 @@ text-align: center;
 
 }
 
+#post-13 > div > div > form > p.woocommerce-LostPassword.lost_password{
+
+	padding-bottom: 4rem;
+
+}
+
 
 #post-13 > div > div > form{
 
@@ -994,19 +976,171 @@ text-align: center;
 
 	}
 }
-// 	#post-13 > div > div > form > p:nth-child(2) > label{
 
-// 		position: absolute;
-// 		right: -1rem;
+
+@media screen and (max-width: 535px) {
+
+	#post-19 > div > div > div{
+
+		width: 300px;
+		height: 300px;
+
+	}
+
+}
+
+@media screen and (max-width: 1160px) {
+
+	#post-19 > div > div > div{
+
+		width: 300px;
+		height: 300px;
+
+	}
+
+	.hdr {
+
+		font-size: 5rem;
+
+	}
+
+}
+
+@media screen and (max-width: 1020px) {
+
+	.hdr {
+
+		font-size: 4rem;
+
+	}
+
+}
+
+@media screen and (max-width: 835px) {
+
+	.hdr {
+
+		font-size: 3rem;
+
+	}
+
+}
+
+@media screen and (max-width: 524px) {
+
+	.hdr {
+
+		font-size: 2.5rem;
+
+	}
+
+}
+
+@media screen and (max-width: 1160px) {
+
+	.whole-designer-page-content{
+
+		position: relative;
+	
+	}
+	
+	.about-us-paragraph{
+	
+		position: absolute;
+		bottom: 4rem;
+		text-align: center;
+	
+	}
+
+	.designers-wrapper{
+
+		padding-bottom: 15rem;
+
+	}
+
+
+
+}
+
+
+@media screen and (max-width: 480px) {
+.about-us-paragraph{
+	
+	inline-size: 21rem;
+	overflow-wrap: break-word;
+	font-size: 0.75rem;
+
+}
+
+}
+
+@media screen and (min-width: 666px) {
+.designers-gallery {
+    padding-right: 2rem;
+}
+}
+
+@media screen and (max-width: 666px) {
+
+	.designers-biographies{
+
+		position: absolute;
+
+	}
+
+	.designers-wrapper{
+
+		position: relative;
+    	bottom: -11rem;
+		padding-bottom: 25rem;
+		text-align: center;
+
+
+
+	}
+
+	#primary > div > div > div > div.designers-wrapper{
+
+		right: -2.5rem;
+
+	}
+
+	#primary > div > div > div > div.designers-wrapper > div.designers-wrapper{
+
+		right: -0.3rem;
+
+	}
+
+	#primary > div > div > div > div.designers-biographies > ul > li:nth-child(1) > img{
+
+
+		max-width: none;
+    	padding-bottom: 12rem;
+    	width: 200px;
+
+	}
+
+
+}
+
+
+// @media screen and (max-width: 716px) {
+
+// .designers-gallery{
+
+// 		display: inline-flex;
 
 // 	}
-
-// 	#password{
-
-// 		position: relative;
-// 		right: -2.5rem;
-
-// 	}
-
+	
 // }
+
+
+
+.designer-page-content {
+  
+	display: flex;
+
+}
+
+
 
