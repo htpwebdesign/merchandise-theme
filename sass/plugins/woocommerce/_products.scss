@@ -5,7 +5,7 @@ ul.products {
     flex-wrap: wrap;
 	// max-width: 60rem;
 	justify-content: center;
-	padding-bottom:5rem;
+	padding-left: 1.25rem;
 
 
 	li.product {
@@ -21,6 +21,13 @@ ul.products {
 	}
 }
 
+@media screen and (min-width: 600px){
+	ul.products {
+
+		padding-bottom:5rem;
+
+	}
+}
 
 @media screen and (min-width: 1024px){
 

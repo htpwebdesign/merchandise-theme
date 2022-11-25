@@ -99,7 +99,7 @@ get_header();
 ?>
 		</div>
 
-	<div class = "cta-intro">
+	<div class = "new-releases-cta-intro">
 
 		<h1 class = "hdr">New Releases.</h1>
 

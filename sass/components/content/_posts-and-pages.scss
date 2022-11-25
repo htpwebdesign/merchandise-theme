@@ -189,6 +189,12 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 
 	}
 
+	.on-sale-preview-text h1{
+
+		font-size: 1.25rem;		
+
+	}
+
 	.new-releases-preview-text p {
 
 		font-size: 0.75rem;
@@ -581,6 +587,7 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 
 	position: relative;
 
+
 }
 
 
@@ -588,12 +595,23 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 
 	position: relative;
 
+
 }
 
 .hdr{
 
 	@include CtaHeadingStyling();
 	text-align: center;
+}
+
+.new-releases-cta-intro{
+
+	position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    white-space: nowrap;
+
 }
 
 // .accessories-mask{
@@ -665,13 +683,6 @@ ul.products.columns-4 li.product img{
 
 }
 
-#primary > div > section.new-releases-products-preview > div.new-releases-products > div > ul > li.product.type-product.post-371.status-publish.instock.product_cat-new-releases.product_tag-gym-wear.product_tag-men.product_tag-socks.has-post-thumbnail.sale.taxable.shipping-taxable.purchasable.product-type-simple > a.woocommerce-LoopProduct-link.woocommerce-loop-product__link > span.price > ins > span{
-
-	font-size: 0.8rem;
-
-}
-
-
 }
 
 @media screen and (min-width: 600px){
@@ -729,6 +740,13 @@ ul.products.columns-4 li.product h2{
 		top: 2rem;	
 
 	}
+
+	.on-sale-preview-text p{
+
+		position: absolute;
+		top: 2rem;	
+
+	}
 }
 
 
@@ -742,21 +760,25 @@ ul.products.columns-4 li.product h2{
 
 }
 
-@media screen and (min-width: 1563px) {
-.on-sale-preview-text p{
+@media screen and (min-width: 600px) {
+.new-releases-preview-text{
 
-	position: absolute;
-    top: 0.5rem;
-    right: 0;
+	margin-top: 5rem;
+
+}
+
+.on-sale-preview-text {
+
+	margin-top: 5rem;
 
 }
 }
 
-@media screen and (max-width: 1563px) {
+@media screen and (max-width: 1024px) {
 
 	.on-sale-preview-text p{
-		position: absolute;
-		top: 3.5rem;
+
+			font-size: 0.75rem;
 	}
 }  
 
@@ -852,10 +874,24 @@ padding-right: 0.7rem;
 
 // }
 
+#primary > header{
+
+	position: relative;
+
+}
 
 .woocommerce-products-header__title.page-title{
 
-	display: none;
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    white-space: nowrap;
+	font-size: 7rem;
+	color: white;
+	font-family: "Heebo", sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
 
 }
 
@@ -891,12 +927,6 @@ padding-right: 0.7rem;
 
 }
 
-.orderby{
-
-	position: relative;
-	left: -22.2rem;
-
-}
 
 .widget-area{
 
@@ -1470,5 +1500,119 @@ text-align: center;
 
 }
 
+@media screen and (max-width: 400px) {
+
+	.yvr-wear {
+		font-size: 2rem;
+		padding-bottom: 2.5rem;
+	}
+
+	.mens-button{
+
+		font-size: 0.35rem;
+		padding: 0.3rem 0.8rem;
+
+	}
 
 
+	.womens-button {
+
+		font-size: 0.35rem;
+		padding: 0.3rem 0.4rem;
+	
+	}
+}
+
+@media screen and (max-width: 370px) {
+
+	.hdr {
+		font-size: 1.5rem;
+		padding-bottom: 0.3rem;
+	}
+
+	.yvr-wear {
+		font-size: 1.75rem;
+	}
+
+}
+
+@media screen and (max-width: 390px) {
+
+	.wp-block-quote p {
+		inline-size: 10rem;
+		overflow-wrap: break-word;
+	}
+
+}
+
+@media screen and (min-width: 1024px) {
+
+	.on-sale-preview-text p {
+		position: absolute;
+		top: 3.5rem;
+
+}
+
+
+}
+
+
+@media screen and (max-width: 1824px) {
+
+	.woocommerce-products-header__title.page-title {
+
+    top: 30%;
+
+	}
+}
+
+		@media screen and (max-width: 1000px) {
+
+		.woocommerce-products-header__title.page-title {
+
+				font-size: 5rem;
+				top: 25%;
+				
+		}
+
+}
+
+
+@media screen and (max-width: 640px) {
+
+	.woocommerce-products-header__title.page-title {
+
+		font-size: 4rem;
+		top: 20%;
+
+}
+}
+
+@media screen and (max-width: 465px) {
+
+	.woocommerce-products-header__title.page-title {
+
+		font-size: 3rem;
+		top: 20%;
+
+}
+}
+
+@media screen and (max-width: 336px) {
+
+	.woocommerce-products-header__title.page-title {
+
+		font-size: 2rem;
+		top: 25%;
+
+}
+}
+
+@media screen and (min-width: 1025px) {
+
+	.orderby {
+		position: relative;
+		left: -22.2rem;
+	}
+
+}
