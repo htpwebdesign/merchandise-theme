@@ -21,12 +21,46 @@ ul.products {
 	}
 }
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 1037px){
 	ul.products {
 
 		padding-bottom:5rem;
+		max-width: 60rem;
+		margin-left: auto;
+		margin-right: auto;
 
 	}
+}
+
+// @media screen and (min-width: 1037px){
+// 	ul.products {
+
+// 		padding-bottom:5rem;
+// 		max-width: 60rem;
+// 		margin-left: auto;
+// 		margin-right: auto;
+
+// 	}
+// }
+
+
+@media screen and (max-width: 1037px){
+	ul.products {
+
+		padding-bottom:5rem;
+		max-width: 40rem;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+}
+
+#post-13 > div > div > form > p:nth-child(3) > button{
+
+
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 @media screen and (min-width: 1024px){
@@ -50,5 +84,14 @@ ul.products {
 
 
 	}
+
+}
+
+
+div > div > div.woocommerce-notices-wrapper > div > a{
+
+	position: relative;
+	top: -1.25rem;
+	margin-right: 1rem;
 
 }

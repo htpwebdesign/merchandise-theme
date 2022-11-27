@@ -27,6 +27,8 @@ table.shop_table_responsive {
 
 				a {
 					text-align: left;
+					color: black;
+					font-size: 3rem;
 				}
 
 				&::before {
@@ -84,4 +86,12 @@ table.shop_table_responsive {
 			}
 		}
 	}
+}
+
+
+div > div > div.woocommerce-notices-wrapper > div > a{
+
+	position: relative;
+	top: -5.5rem;
+
 }

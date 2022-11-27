@@ -223,8 +223,50 @@ p.stars {
 .woocommerce-error,
 .woocommerce-noreviews,
 p.no-comments {
-	background-color: $woocommerce__color-success;
+	// background-color: $woocommerce__color-success;
+
 	clear: both;
+}
+
+@media screen and (min-width: 398px){
+
+	.woocommerce-message{
+
+		display: flex;
+		justify-content: center;
+		clear: both;
+
+	}
+
+	#primary > div.woocommerce-notices-wrapper > div > a{
+
+		margin-top: 0;
+		margin-right: 1rem;
+
+	}
+
+	
+
+}
+
+div.summary.entry-summary{
+
+text-align: left;
+
+}
+
+@media screen and (max-width: 398px){
+#primary > div.woocommerce-notices-wrapper > div > a{
+
+	margin: auto;
+
+}
+
+#primary > div.woocommerce-notices-wrapper > div{
+
+	text-align: center;
+
+}
 }
 
 .woocommerce-info,
@@ -234,7 +276,10 @@ p.no-comments {
 }
 
 .woocommerce-error {
-	background-color: $woocommerce__color-error;
+	width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+	color: black;
 }
 
 .demo_store {
