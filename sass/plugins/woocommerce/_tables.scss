@@ -88,10 +88,20 @@ table.shop_table_responsive {
 	}
 }
 
+div > div > form > table > tbody > tr:nth-child(3) > td > div{
 
-div > div > div.woocommerce-notices-wrapper > div > a{
+	display: none;
 
-	position: relative;
-	top: -5.5rem;
+}
+
+div > div > div.woocommerce-notices-wrapper > div{
+
+	display: none;
+
+}
+
+div > div > form > table > tbody > tr:nth-child(3) > td > button{
+
+	display: none;
 
 }

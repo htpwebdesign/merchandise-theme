@@ -1240,10 +1240,15 @@ padding: 5rem 10rem 10rem 10rem;
 
 .coupon{
 
-	padding-top: 3rem;
-	padding-left: 2rem;
-	padding-right: 2rem;
-	float: right;
+
+	display: none;
+
+}
+
+div > div > form > table > tbody > tr:nth-child(4) > td > button{
+
+	display: none;
+
 }
 
  div > div > form > table > tbody > tr:nth-child(2) > td > button{
@@ -1255,14 +1260,6 @@ padding: 5rem 10rem 10rem 10rem;
 
 }
 
-div > div > form > table > tbody > tr:nth-child(3) > td > button{
-
-
-	right: 2rem;
-	position: absolute;
-	bottom: -5rem;
-
-}
 
 @media screen and (max-width: 1025px){
 
@@ -1398,6 +1395,8 @@ div > div > div.cart-collaterals > div > div > a{
 	margin-left: auto;
     margin-right: auto;
     width: 20rem;
+	margin-top: 10rem;
+    margin-bottom: 10rem;
 
 }
 
@@ -1456,13 +1455,56 @@ padding-bottom: 5rem;
 	padding-left: 5rem;
 
 }
-
+@media screen and (min-width: 505px) {
 form.checkout.woocommerce-checkout {
 
 	
     margin-left: auto;
     margin-right: auto;
     width: 30rem;
+
+}
+}
+
+@media screen and (max-width: 505px) {
+form.checkout.woocommerce-checkout {
+
+    width: 10rem;
+	margin: auto;
+	position: relative;
+    left: -1rem;
+
+}
+
+#billing_country{
+
+	width: 11.9rem;
+
+}
+
+#billing_state{
+
+	width: 11.9rem;
+
+}
+
+#shipping_country{
+
+	width: 11.9rem;
+
+}
+
+#shipping_state{
+
+	width: 11.9rem;
+
+}
+
+#order_comments{
+
+	width: 11.9rem;
+
+}
 
 }
 
@@ -1983,4 +2025,305 @@ div > div > form > table > tbody > tr.woocommerce-cart-form__cart-item.cart_item
 	height: auto;
 	width: auto;
 
+}
+
+@media screen and (max-width: 489px) {
+
+	div > div > p.cart-empty.woocommerce-info{
+
+		max-width: 19rem;
+
+	}
+
+}
+
+@media screen and (min-width: 505px) {
+
+#billing_company{
+
+    position: relative;
+    right: -6.7rem;
+}
+
+#billing_country{
+
+	width: 11.9rem;
+	position: relative;
+	right: -9.9rem;
+
+}
+
+#billing_address_1{
+
+	position: relative;
+    right: -11.2rem;
+    width: 11.9rem;
+
+}
+
+#billing_address_2{
+
+	width: 11.9rem;
+	position: relative;
+	right: -18.1rem;
+
+}
+
+
+#billing_city{
+
+
+	width: 11.9rem;
+	position: relative;
+	right: -12.5rem;
+
+}
+
+
+#billing_state{
+
+	position: relative;
+	right: -13.65rem;
+    width: 11.9rem;
+
+}
+
+#billing_postcode{
+
+	position: relative;
+	right: -12.4rem;
+	width: 11.9rem;
+	
+
+}
+
+#billing_phone{
+
+	position: relative;
+    right: -14.65rem;
+    width: 11.9rem;
+
+}
+
+#billing_phone{
+
+	position: relative;
+    right: -14.65rem;
+    width: 11.9rem;
+}
+
+
+
+#billing_email{
+
+	position: relative;
+    right: -11.4rem;
+    width: 11.9rem;
+
+}
+
+
+#shipping_company{
+
+	position: relative;
+    right: -6.6rem;
+    width: 11.9rem;
+
+}
+
+#shipping_country{
+
+
+	position: relative;
+    right: -9.9rem;
+    width: 11.9rem;
+
+}
+
+#shipping_address_1{
+
+	position: relative;
+	right: -11.2rem;
+	width: 11.9rem;
+
+}
+
+#shipping_address_2{
+
+	position: relative;
+    right: -18.2rem;
+    width: 11.9rem;
+
+}
+
+#shipping_city{
+
+	position: relative;
+	right: -12.65rem;
+	width: 11.9rem;
+
+}
+
+#shipping_state{
+
+	position: relative;
+    right: -13.85rem;
+    width: 11.9rem;
+
+}
+
+#shipping_postcode{
+
+	position: relative;
+	right: -12.65rem;
+	width: 11.9rem;
+
+}
+
+#shipping_phone{
+
+	position: relative;
+    right: -11.1rem;
+    width: 11.9rem;
+
+}
+
+#order_comments{
+
+	margin-top: 1rem;
+
+}
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+	#billing_first_name{
+
+		position: relative;
+		right: -13rem;
+	
+	}
+	
+	#billing_last_name{
+	
+		position: relative;
+		right: -13rem;
+	
+	}
+	
+	#shipping_first_name{
+
+		position: relative;
+		right: -12.8rem;
+		width: 11.9rem;
+	
+	}
+
+	#shipping_last_name{
+
+		position: relative;
+		right: -12.9rem;
+		width: 11.9rem;
+	
+	}
+
+}
+
+
+@media screen and (max-width: 505px) {
+
+	#billing_first_name{
+
+		position: relative;
+		right: 0rem;
+	
+	}
+	
+	#billing_last_name{
+	
+		position: relative;
+		right: 0rem;
+	
+	}
+	
+	#shipping_first_name{
+
+		position: relative;
+		right: 0rem;
+	
+	}
+
+	#shipping_last_name{
+
+		position: relative;
+		right: 0rem;
+	
+	}
+
+}
+
+@media screen and (min-width: 767px) {
+#billing_last_name_field{
+
+	position: relative;
+    right: -2.6rem;
+
+}
+
+#shipping_last_name_field{
+
+	position: relative;
+    right: -2.6rem;
+
+}
+}
+
+
+
+#payment > ul{
+
+	position: relative;
+    left: -5.6rem;
+
+}
+
+#place_order{
+
+	margin: auto;
+
+}
+
+@media screen and (max-width: 505px) {
+
+	#payment > ul > li{
+
+		max-width: 13.75rem;
+
+	}
+
+	div > div > div.woocommerce-form-coupon-toggle > div{
+
+		max-width: 12rem;
+
+	}
+
+}
+
+@media screen and (max-width: 505px) {
+	#payment > div > div > div > p{
+
+		text-align: center;
+		position: relative;
+		right: -1.8rem;
+
+	}
+
+	#place_order{
+
+		position: relative;
+		right: -1.8rem;	
+
+	}
 }
