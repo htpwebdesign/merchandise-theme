@@ -9,3 +9,13 @@
 @mixin column-width($numberColumns: 3) {
 	width: map-get($columns, $numberColumns) - ( ( $columns__margin * ( $numberColumns - 1 ) ) / $numberColumns );
 }
+
+@mixin CtaHeadingStyling {
+
+	font-size: 7rem;
+	color: white;
+	font-family: "Heebo", sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+
+}
