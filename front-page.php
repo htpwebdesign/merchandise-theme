@@ -122,37 +122,7 @@ get_header();
 </div>
 </div>
 </section>
-<section class = "tesitmonial-slider">
-<?php
 
-
-			$args = array(
-
-					'post_type'      => 'yvr-testimonial',
-					'posts_per_page' => -1
-			
-				);
-
-			$query = new WP_Query( $args );
-
-			if ( $query->have_posts() ) : ?>
-				<div class="swiper">
-					<div class="swiper-wrapper">
-						<?php while ( $query->have_posts() ) : $query->the_post(); ?>
-							<div class="swiper-slide">
-							<?php the_content(); ?>
-							</div>
-			<?php endwhile; ?>
-			</div>
-
-				<div class="swiper-pagination"></div>
-				<div class="swiper-button-prev"></div>
-				<div class="swiper-button-next"></div>
-
-			</div>
-
-
-</section>
 <section class = "on-sale-img">
 
 	<div class = "on-sale-mask">
@@ -160,7 +130,7 @@ get_header();
 <?php
 
 				wp_reset_postdata();
-						endif;
+						// endif;
 
 					if ( get_field( 'on_sale_message' ) ) {
 						$image = get_field('on_sale_message');

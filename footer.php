@@ -19,18 +19,18 @@
 	<div class = "left-footer-side">
 		<ul class = "left-footer-content">
 			<h2>YVR WEAR</h2>
-				<li><a href="http://localhost/merchandisestore/about-us/">About Us</a></li>
-				<li><a href="http://localhost/merchandisestore/contact-us/">Careers</a></li>
-				<li><a href="http://localhost/merchandisestore/contact-us/">Contact Us</a></li>
+				<li><a href="https://merchandise.bcitwebdeveloper.ca/about-us/">About Us</a></li>
+				<li><a href="https://merchandise.bcitwebdeveloper.ca/contact-us/">Careers</a></li>
+				<li><a href="https://merchandise.bcitwebdeveloper.ca/contact-us/">Contact Us</a></li>
 		</ul>
 	
 		<ul class = "middle-footer-content">
 			<h2>SUPPORT</h2>
-				<li><a href="http://localhost/merchandisestore/customer-service/">Shipping</a></li>
-				<li><a href="http://localhost/merchandisestore/customer-service/">Return Policy</a></li>
-				<li><a href="http://localhost/merchandisestore/customer-service/">Terms of Conditions</a></li>
-				<li><a href="http://localhost/merchandisestore/customer-service/">Orders</a></li>
-				<li><a href="http://localhost/merchandisestore/customer-service/">FAQ</a></li>	
+				<li><a href="https://merchandise.bcitwebdeveloper.ca/customer-service/">Shipping</a></li>
+				<li><a href="https://merchandise.bcitwebdeveloper.ca/customer-service/">Return Policy</a></li>
+				<li><a href="https://merchandise.bcitwebdeveloper.ca/customer-service/">Terms of Conditions</a></li>
+				<li><a href="https://merchandise.bcitwebdeveloper.ca/customer-service/">Orders</a></li>
+				<li><a href="https://merchandise.bcitwebdeveloper.ca/customer-service/">FAQ</a></li>	
 		</ul>
 	</div>
 
@@ -50,8 +50,8 @@
 		</ul>
 
 		<ul class = "right-footer-content">	
-			<li><a href="http://localhost/merchandisestore/shop/"><div class="col-md-4"><img src="<?php echo get_template_directory_uri();?>/images/footer-image.png"></div></a></li>
-			<li class = "back-to-home-btn"><a href="http://localhost/merchandisestore/">Back to Home</a></li>
+			<li><a href="https://merchandise.bcitwebdeveloper.ca/product-category/products/"><div class="col-md-4"><img src="<?php echo get_template_directory_uri();?>/images/footer-image.png"></div></a></li>
+			<li class = "back-to-home-btn"><a href="https://merchandise.bcitwebdeveloper.ca/">Back to Home</a></li>
 		</ul>
 	</div>
 
@@ -61,7 +61,7 @@
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
-<!--<?php wp_footer(); ?> -->
+<?php wp_footer(); ?> 
 
 </body>
 </html>
